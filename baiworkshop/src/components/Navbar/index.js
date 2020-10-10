@@ -62,19 +62,36 @@ const styles = (theme) => ({
         marginLeft: theme.spacing(5),
         margin: theme.spacing(1),
         borderRadius: "40px",
+        paddingTop: theme.spacing(1)
     }
 });
 
 const ColorButton = withStyles((theme) => ({
     root: {
-        color: theme.palette.getContrastText(theme.palette.warning.main),
-        backgroundColor: theme.palette.warning.main,
+        color: "#fff",
+        backgroundColor: "#fff",
         '&:hover': {
-            backgroundColor: theme.palette.warning.main,
+            backgroundColor: "#fff",
         },
     },
 }))(Button);
 
+function Donate(){
+    return (
+        <form id='my-donate-form' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_donations"/>
+            <input type="hidden" name="business" value="organizers@blackinai.org"/>
+            <input type="hidden" name="lc" value="US"/>
+            <input type="hidden" name="item_name" value="Black in AI Fundraiser"/>
+            <input type="hidden" name="item_number" value="Thanks for your kind contribution. Funds are used to support the annual BAI Workshops."/>
+            <input type="hidden" name="no_note" value="0"/>
+            <input type="hidden" name="currency_code" value="USD"/>
+            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHostedGuest"/>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="3" height="3"/>
+        </form>
+    );
+}
 function AppAppBar(props) {
     const { classes } = props;
 
@@ -98,14 +115,13 @@ function AppAppBar(props) {
                                 {'Academic Programs'}
                             </Link>
                             <Link color="inherit" variant="h5" underline="none" className={classes.rightLink}
-                                href="/">
+                                href="/bai">
                                 {'BAI 2020'}
                             </Link>
-                            <ColorButton className={classes.chip} size="small" variant="contained" href="/">
-                                {'Donate'}
+                            <ColorButton className={classes.chip} size="small">
+                                <Donate/>
                             </ColorButton>
                         </div>
-
                     </React.Fragment>
                 </Toolbar>
             </AppBar>

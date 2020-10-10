@@ -53,6 +53,15 @@ const ColorButton = withStyles((theme) => ({
     },
 }))(Button);
 
+const JoinUsButton = withStyles((theme) => ({
+    root: {
+        color: theme.palette.getContrastText(theme.palette.primary.light),
+        backgroundColor: theme.palette.primary.light,
+        '&:hover': {
+            backgroundColor: theme.palette.primary.light,
+        },
+    },
+}))(Button);
 
 const valueslist = [
     {
@@ -89,6 +98,13 @@ function CommunityValues(props) {
                             <ColorButton className={classes.chip} variant="contained" href="/">
                                 Our Programns
                             </ColorButton>
+                            <JoinUsButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform">
+                                Join Us
+                            </JoinUsButton>
+                            <br></br>
+                            <ColorButton className={classes.chip} variant="contained" href="/bai">
+                                Black in Ai Workshop 2020
+                            </ColorButton>
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Typography variant="h4" className={classes.title}>
@@ -97,15 +113,14 @@ function CommunityValues(props) {
                             </Typography>
                             <Typography variant="body1" className={classes.title}>
                                 Our initiatives include an academic positions academic program, events at 
-                                various conferences related to AI, advocacy, and community building 
-                                (through our online forums).
+                                various conferences related to AI, advocacy, and community building.
                             </Typography>
                             <Typography variant="h4" className={classes.title}>
-                                If you are in the field of AI and self-identify as Black, join us.
+                                If you self-identify as Black, join us.
                             </Typography>
                             <Typography variant="body1" className={classes.title}>
-                                If you are in the field of AI and self-identify as Black, please 
-                                fill out this Google Form to request to join and we will add you 
+                                If you are in the <b>field of AI and self-identify as Black</b>, please 
+                                fill out the Google Form in "Join Us" button, to request to join and we will add you 
                                 to various platforms that we maintain. We also welcome allies to 
                                 join our group using the Google form. Allies will be added to our 
                                 email lists, where we send out group updates and requests for 

@@ -7,6 +7,7 @@ import Header from '../../components/Header';
 import CommunityValues from '../../components/CommunityValues';
 import TeamMembers from '../../components/TeamMembers';
 import JoinUs from '../../components/JoinUs';
+import RelatedOrganizations from '../../components/RelatedOrganizations';
 
 function Home() {
     return (
@@ -15,8 +16,9 @@ function Home() {
             <Navbar/>
             <Header/>
             <CommunityValues/>
-            <TeamMembers/>
             <JoinUs/>
+            {/* <TeamMembers/> */}
+            <RelatedOrganizations/>
             <Footer/>
         </ThemeProvider>
     );

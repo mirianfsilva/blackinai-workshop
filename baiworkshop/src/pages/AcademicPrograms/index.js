@@ -1,29 +1,23 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,  } from 'react';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import { ThemeProvider, Container, Box } from '@material-ui/core';
-import theme from './../../theme';
-import withRoot from './../../withRoot';
+import theme from '../../theme';
+import withRoot from '../../withRoot';
 import Typography from '../../components/Typography';
-import Markdown from '../../components/Markdown';
-import AcademicPage from './../../posts/AcademicPrograms.md';
-import ReactMarkdown from 'react-markdown';
-import { render } from 'react-dom';
+import { useMarked } from "use-marked-hook";
+import AcademicPage from './../../posts/baiPrograms/AcademicPrograms.md';
+import ContentFile from './../../components/Markdown/readfile';
 
 function AcademicPrograms() {
     return (
-        <React.Fragment>
+        <ThemeProvider theme={theme}>
             <Navbar />
-                <Container>
-                    <Box mt={8} mb={12}>
-                        <Typography variant="h3" gutterBottom marked="center" align="center">
-                            Academic Programs
-                        </Typography>
-                        <Markdown/>
-                     </Box>
-                </Container>
-                <Footer />
-        </React.Fragment>
+            <ContentFile href={AcademicPage}>
+                Academic Programs
+            </ContentFile>
+            <Footer />
+        </ThemeProvider>
     );
 }
 

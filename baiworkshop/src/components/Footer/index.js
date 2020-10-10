@@ -63,6 +63,23 @@ function Copyright() {
     );
 }
 
+function Donate(){
+    return (
+        <form id='my-donate-form' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_donations"/>
+            <input type="hidden" name="business" value="organizers@blackinai.org"/>
+            <input type="hidden" name="lc" value="US"/>
+            <input type="hidden" name="item_name" value="Black in AI Fundraiser"/>
+            <input type="hidden" name="item_number" value="Thanks for your kind contribution. Funds are used to support the annual BAI Workshops."/>
+            <input type="hidden" name="no_note" value="0"/>
+            <input type="hidden" name="currency_code" value="USD"/>
+            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHostedGuest"/>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+        </form>
+    );
+}
+
 function Footer(props) {
     const classes = useStyles();
 
@@ -70,6 +87,7 @@ function Footer(props) {
         { id: 1, name: "Facebook", link: 'https://www.facebook.com/blackinai', image: <FontAwesomeIcon icon={["fab", "facebook"]} /> },
         { id: 2, name: "Twitter", link: 'https://twitter.com/black_in_ai', image: <FontAwesomeIcon icon={["fab", "twitter"]} /> },
         { id: 3, name: "Instagram", link: 'https://www.instagram.com/blackinai/', image: <FontAwesomeIcon icon={["fab", "instagram"]} /> },
+        { id: 4, name: "Email", link: 'mailto:blackinai-board@googlegroups.com', image: <FontAwesomeIcon icon={["fas", "envelope"]} /> },
     ];
 
     return (
@@ -91,9 +109,9 @@ function Footer(props) {
                                     <Copyright />
                                     <br></br>
                                     <br></br>
-                                    <ColorButton justify="left" className={classes.chip} size="small" variant="contained" href="/">
-                                        {'Donate'}
-                                    </ColorButton>
+                                    <Donate/>
+                                    {/* <ColorButton className={classes.chip} size="small" variant="contained">
+                                    </ColorButton> */}
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -106,11 +124,11 @@ function Footer(props) {
                             <li className={classes.listItem}>
                                 <Typography variant="body1" style={{ color:'#f8f7f7'}} href="/">Physical address, if available will go right here.</Typography>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Typography style={{ color:'#f8f7f7'}} variant="body1" marked="left" gutterBottom>
-                                    abc@blackinai.org
+                                    blackinai-board@googlegroups.com
                                 </Typography>
-                            </li>
+                            </li> */}
                             <li className={classes.iconsWrapper}>
                                 <List className={classes.icons}>
                                     {socialList.map(item => (
@@ -136,14 +154,14 @@ function Footer(props) {
                                 <Link variant="body1" style={{ color:'#f8f7f7'}} href="/">Programs</Link>
                             </li>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/">Membership</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform">Membership</Link>
                             </li>
-                            <li className={classes.listItem}>
+                            {/* <li className={classes.listItem}>
                                 <Link variant="body1" style={{ color:'#f8f7f7'}} href="/">Partnership</Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </Grid>
-                    <Grid item xs={6} sm={4} md={3}>
+                    {/* <Grid item xs={6} sm={4} md={3}>
                         <Typography style={{ color:'#f8f7f7'}} variant="h6" marked="left" gutterBottom>
                             GET UPDATES
                         </Typography>
@@ -156,7 +174,7 @@ function Footer(props) {
                             <li>
                             </li>
                         </ul>
-                    </Grid>
+                    </Grid> */}
                 </Grid>
             </Container>
         </Typography>

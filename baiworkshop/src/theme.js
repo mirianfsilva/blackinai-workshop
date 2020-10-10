@@ -14,7 +14,7 @@ const rawTheme = createMuiTheme({
             dark: '#007299',
         },
         warning: {
-            main: '#ffc071',
+            main: '#fec646',
             dark: '#ffb25e',
         },
         error: {
@@ -103,6 +103,10 @@ const theme = {
             ...rawTheme.typography.body1,
             fontSize: 14,
         },
+        p: {
+            ...rawTheme.typography.p,
+            fontSize: 17,
+        }
     },
 };
 

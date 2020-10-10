@@ -85,11 +85,11 @@ function JoinUs(props) {
                         to graduate programs, navigate graduate school, and enter the 
                         postgraduate job market.
                     </Typography>
-                    <ColorButton className={classes.chip} variant="contained" href="/">
+                    <ColorButton className={classes.chip} variant="contained" href="/academicprograms">
                         Read More
                     </ColorButton>
-                    {/* <JoinUsButton className={classes.chip} variant="contained" href="/">
-                        Read
+                    {/* <JoinUsButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform">
+                        Join Us
                     </JoinUsButton> */}
                 </Grid>
             </Container>

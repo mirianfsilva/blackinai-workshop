@@ -94,7 +94,7 @@ function AppAppBar(props) {
                                 {'Home'}
                             </Link>
                             <Link color="inherit" variant="h5" underline="none" className={classes.rightLink}
-                                href="/">
+                                href="/academicprograms">
                                 {'Academic Programs'}
                             </Link>
                             <Link color="inherit" variant="h5" underline="none" className={classes.rightLink}

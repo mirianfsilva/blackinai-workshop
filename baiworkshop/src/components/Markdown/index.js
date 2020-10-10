@@ -1,7 +1,8 @@
 import * as React from 'react';
-import ReactMarkdown from 'markdown-to-jsx';
+// import ReactMarkdown from 'markdown-to-jsx';
+import ReactMarkdown from 'react-markdown';
 import { withStyles } from '@material-ui/core/styles';
-import { Typography, Link } from '@material-ui/core';
+import { Typography, Link } from '@material-ui/core/';
 
 const styles = (theme) => ({
     listItem: {
@@ -47,7 +48,7 @@ const options = {
 };
 
 function Markdown(props) {
-    return <ReactMarkdown options={options} {...props} />;
+    return <ReactMarkdown options={options} {...props}/>;
 }
 
 export default Markdown;

@@ -2,10 +2,9 @@ import React from 'react';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import { ThemeProvider, Container, Box } from '@material-ui/core';
-import theme from './../../theme';
+import theme from '../../theme';
 
-
-function About() {
+function BAI() {
     return (
         <ThemeProvider theme={theme}>
             <Navbar />
@@ -15,4 +14,4 @@ function About() {
     );
 }
 
-export default About;
+export default BAI;

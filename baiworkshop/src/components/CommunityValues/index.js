@@ -103,7 +103,7 @@ function CommunityValues(props) {
                             </JoinUsButton>
                             <br></br>
                             <ColorButton className={classes.chip} variant="contained" href="/bai">
-                                Black in Ai Workshop 2020
+                                Black in Ai - Workshop 2020
                             </ColorButton>
                         </Grid>
                         <Grid item xs={12} md={6}>

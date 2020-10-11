@@ -75,7 +75,9 @@ function ContentFile(props) {
                     <Typography variant="h3" gutterBottom marked="center" align="center">
                         {props.children}
                     </Typography>
-                    <div dangerouslySetInnerHTML={html}/>
+                    <Typography variant="body1">
+                        <div dangerouslySetInnerHTML={html}/>
+                    </Typography>
                 </Box>
             </Container>
         </ThemeProvider>

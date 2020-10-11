@@ -19,7 +19,7 @@ On this page we will answer frequently asked questions and provide opportunities
 If you are interested in supporting us by volunteering your time as a mentor, donating to the program, or supporting us with our advocacy, please reach out to the organizers
 
 ### Contact:
-``` bai-acad-team@googlegroups.com ```
+` bai-acad-team@googlegroups.com `
 
 ### Organizers:
 - Rediet Abebe, Ph.D., Harvard University
@@ -31,8 +31,8 @@ If you are interested in supporting us by volunteering your time as a mentor, do
 - Sanmi Koyejo, Ph.D., University of Illinois, Urbana Champaign
 - Dina Machuve, Ph.D., Nelson Mandela African Institute of Science and Technology
 - Brandeis Marshall, Ph.D., Spelman College
-### Supported By:
-**Black in AI**
+
+### Supported By: Black in AI
 
 -----
 

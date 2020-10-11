@@ -115,7 +115,7 @@ function AppAppBar(props) {
                                 {'Academic Programs'}
                             </Link>
                             <Link color="inherit" variant="h5" underline="none" className={classes.rightLink}
-                                href="/bai">
+                                href="/bai2020">
                                 {'BAI 2020'}
                             </Link>
                             <ColorButton className={classes.chip} size="small">

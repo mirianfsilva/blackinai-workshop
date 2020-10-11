@@ -8,7 +8,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import * as serviceWorker from './serviceWorker';
 import AcademicPrograms from './pages/AcademicPrograms';
-import BAI from './pages/BAI';
+import cpf2020 from './pages/BAI';
 
 library.add(fab, fas);
 
@@ -17,7 +17,7 @@ ReactDOM.render(
         <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/academicprograms" component={AcademicPrograms} exact />
-            <Route path="/bai" component={BAI} exact />
+            <Route path="/bai2020" component={cpf2020} exact />
         </Switch>
     </BrowserRouter>,
   document.getElementById('root')

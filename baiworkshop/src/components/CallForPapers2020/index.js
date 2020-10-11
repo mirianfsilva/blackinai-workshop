@@ -98,6 +98,10 @@ function CallForPapers2020(props) {
                     <Typography variant="body1" className={classes.title}>
                         Black researchers in AI, ML and related application areas (health, agriculture, politics, economics, law etc.) 
                         are welcome to submit their work.
+
+                        We invite submissions for the 4th Black in AI Workshop (co-located with NeurIPS). 
+                        The workshop will be held virtually on Monday, <b>December 7 2020</b>. 
+                        We encourage individuals from Black, African, and Diasporic communities to submit their work.
                     </Typography>
                     <ColorButton className={classes.chip} variant="contained" href="https://bit.ly/3iQQmgr">
                         Read More

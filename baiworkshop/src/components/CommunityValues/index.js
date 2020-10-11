@@ -95,7 +95,7 @@ function CommunityValues(props) {
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 We’re fixing the diversity crisis in AI.
                             </Typography>
-                            <ColorButton className={classes.chip} variant="contained" href="/">
+                            <ColorButton className={classes.chip} variant="contained" href="/academicprograms">
                                 Our Programns
                             </ColorButton>
                             <JoinUsButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform">
@@ -105,6 +105,10 @@ function CommunityValues(props) {
                             <ColorButton className={classes.chip} variant="contained" href="/cpfbai2020">
                                 Black in Ai - Workshop 2020
                             </ColorButton>
+                            <br></br>
+                            <JoinUsButton className={classes.chip} variant="contained" href="/subInstructions2020">
+                                Submission Instructions BAI 2020
+                            </JoinUsButton>
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Typography variant="h4" className={classes.title}>

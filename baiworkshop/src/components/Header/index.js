@@ -6,9 +6,11 @@ import Typography from './../Typography';
 import HeaderLayout from './../HeaderLayout';
 import { Card, CardMedia, Container, Divider, Grid, GridList, GridListTile } from '@material-ui/core';
 
-import image1 from './../../assets/img/bai-img-1.jpg';
-import image2 from './../../assets/img/bai-img-2.jpg';
-import image3 from './../../assets/img/bai-img-3.png';
+import image1 from './../../assets/img/bai-img-2.jpg';
+import image2 from './../../assets/img/bai-img-4.JPG';
+import image3 from './../../assets/img/bai-img-1.jpg';
+import image4 from './../../assets/img/bai-img-7.jpg';
+import image5 from './../../assets/img/bai-img-8.jpg';
 
 
 const styles = (theme) => ({
@@ -61,14 +63,17 @@ function Header(props) {
                         </Grid>
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <CardMedia component="img" height="440" image={image1}>
+                        <CardMedia component="img" height="210" image={image1}>
+                        </CardMedia>
+                        <br></br>
+                        <CardMedia component="img" height="210" image={image2}>
                         </CardMedia>
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <CardMedia component="img" height="210" image={image2}>
+                        <CardMedia component="img" height="210" image={image4}>
                         </CardMedia>
                         <br></br>
-                        <CardMedia component="img" height="210" image={image3}>
+                        <CardMedia component="img" height="210" image={image5}>
                         </CardMedia>
                     </Grid>
                 </Grid>

@@ -15,7 +15,7 @@ import grants2020 from './pages/BAI/grants2020';
 import organizers2020 from './pages/BAI/organizers2020';
 import programs2020 from './pages/BAI/programs2020';
 import subInstructions2020 from './pages/BAI/submissionsInstructions2020';
-
+import datagrant2020 from './pages/BAI/datagrant2020';
 
 library.add(fab, fas);
 
@@ -29,6 +29,7 @@ ReactDOM.render(
             <Route path="/organizers2020" component={organizers2020} exact />
             <Route path="/programs2020" component={programs2020} exact />
             <Route path="/subInstructions2020" component={subInstructions2020} exact />
+            <Route path="/datagrant2020" component={datagrant2020} exact />
         </Switch>
     </BrowserRouter>,
   document.getElementById('root')

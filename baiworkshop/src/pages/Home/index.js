@@ -17,8 +17,8 @@ function Home() {
             <CssBaseline />
             <SectionNavbars />
             <Navbar/>
-            <Header/>
             <CallForPapers2020/>
+            <Header/>
             <CommunityValues/>
             <AcademicProgram/>
             {/* <TeamMembers/> */}

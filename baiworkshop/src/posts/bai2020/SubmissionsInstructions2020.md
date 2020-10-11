@@ -17,7 +17,7 @@ All submissions must be in PDF format. Submissions are limited to two content pa
 ----
 - **Paper submission deadline:**
     - ~~Fri October 2, 2020 11:00 PM UTC~~:
-    - **DEADLINE EXTENSION: 14TH OCTOBER 2020**
+    - <span style="color:red">**DEADLINE EXTENSION: 14TH OCTOBER 2020**</span>
 - **First round of decisions:**
     - ~~Fri October 23, 2020~~
     - Fri November 6th, 2020

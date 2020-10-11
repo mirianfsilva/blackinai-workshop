@@ -10,7 +10,7 @@ const styles = (theme) => ({
     root: {
         display: 'flex',
         overflow: 'hidden',
-        backgroundColor: theme.palette.secondary.main,
+        backgroundColor: theme.palette.primary.seconday,
     },
     container: {
         marginTop: theme.spacing(10),
@@ -32,7 +32,7 @@ const styles = (theme) => ({
     title: {
         marginTop: theme.spacing(3),
         marginBottom: theme.spacing(3),
-        color: theme.palette.primary.light,
+        color: theme.palette.primary.dark,
     },
     chip: {
         margin: theme.spacing(1),
@@ -43,6 +43,9 @@ const styles = (theme) => ({
         height: 200,
         top: 0,
     },
+    alert:{
+        color: theme.palette.error.main,
+    }
 });
 
 const ColorButton = withStyles((theme) => ({
@@ -55,9 +58,9 @@ const ColorButton = withStyles((theme) => ({
     },
     secundary: {
         color: theme.palette.getContrastText(theme.palette.primary.light),
-        backgroundColor: theme.palette.primary.light,
+        backgroundColor: theme.palette.primary.dark,
         '&:hover': {
-            backgroundColor: theme.palette.primary.light,
+            backgroundColor: theme.palette.primary.dark,
         },
     },
 }))(Button);
@@ -100,15 +103,21 @@ function CallForPapers2020(props) {
                         are welcome to submit their work.
 
                         We invite submissions for the 4th Black in AI Workshop (co-located with NeurIPS). 
-                        The workshop will be held virtually on Monday, <b>December 7 2020</b>. 
+                        The workshop will be held virtually on <b>Monday, December 7 2020</b>. 
                         We encourage individuals from Black, African, and Diasporic communities to submit their work.
+
+                        <b className={classes.alert}> Submission deadline (EXTENDED): Wednesday October 14th, 2020 11:00 PM UTC</b>
+
                     </Typography>
                     <ColorButton className={classes.chip} variant="contained" href="https://bit.ly/3iQQmgr">
                         Read More
                     </ColorButton>
-                    <JoinUsButton className={classes.chip} variant="contained" href="/subInstructions2020">
+                    <ColorButton className={classes.chip} variant="contained" href="/subInstructions2020">
                         Submission Instructions BAI 2020
-                    </JoinUsButton>
+                    </ColorButton>
+                    <ColorButton className={classes.chip} variant="contained" href="/datagrant2020">
+                        NeurIPS Registration Assistance and Data Grants
+                    </ColorButton>
                 </Grid>
             </Container>
         </section>

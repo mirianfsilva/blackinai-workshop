@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import { withStyles } from '@material-ui/core/styles';
+import Typography from './../Typography';
 import { Link, Hidden, Drawer, IconButton, List , ListItem} from '@material-ui/core/';
-import { AppBar, Toolbar, SwipeableDrawer, Button, Menu } from '@material-ui/core';
+import { AppBar, Toolbar, SwipeableDrawer, Button, Menu, Grid } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import logo from './../../assets/img/bai-logo.png';
 
@@ -25,6 +26,9 @@ const styles = (theme) => ({
     toolbar: {
         justifyContent: 'space-between',
         backgroundColor: theme.palette.primary.light,
+        [theme.breakpoints.down('sm')]: {
+            display: 'none',
+        }  
     },
     left: {
         flex: 1,
@@ -63,7 +67,13 @@ const styles = (theme) => ({
         margin: theme.spacing(1),
         borderRadius: "40px",
         paddingTop: theme.spacing(1)
-    }
+    },
+    iconContainer: {
+        display: 'none',
+        [theme.breakpoints.down('sm')]: {
+            display: 'block'
+        }   
+    },
 });
 
 const ColorButton = withStyles((theme) => ({
@@ -144,6 +154,9 @@ function Navbar(props) {
                         </Link>
                     </ListItem> 
                 )}
+                <ColorButton className={classes.chip} size="small">
+                    <Donate />
+                </ColorButton>
             </List>
         </div>
     );
@@ -156,29 +169,33 @@ function Navbar(props) {
             <AppBar position="fixed" className={classes.colorAppBar}>
                 <Toolbar className={classes.toolbar}>
                     <div className={classes.left}>{brandComponent}</div>
-                    <div className={classes.right}>
-                        {navLinks.map((link, index) =>
-                            <Link color="inherit" variant="h5" underline="none" className={classes.rightLink}
-                                href={link.path}>
-                                {link.text}
-                            </Link>
-                        )}
-                        <ColorButton className={classes.chip} size="small">
-                            <Donate />
-                        </ColorButton>
-                    </div>
+                    <React.Fragment>
+                        <div className={classes.right}>
+                            {navLinks.map((link, index) =>
+                                <Link color="inherit" variant="h5" underline="none" className={classes.rightLink}
+                                    href={link.path}>
+                                    {link.text}
+                                </Link>
+                            )}
+                            <ColorButton className={classes.chip} size="small">
+                                <Donate />
+                            </ColorButton>
+                        </div>            
+                    </React.Fragment>
                 </Toolbar>
-                {/* <div>
-                <React.Fragment key='right'>
-                    <IconButton color="#e8f6fb" aria-label="open drawer" edge="end" onClick={toggleDrawer('right', true)}
-                        className={clsx(mobileOpen && classes.hide)}>
-                        <MenuIcon />
-                    </IconButton>
-                    <Drawer anchor='right' open={mobileOpen['right']} onClose={toggleDrawer('right', false)}>            
-                        {list('right')}
-                    </Drawer>
-                </React.Fragment>
-                </div> */}
+                <div className={classes.iconContainer}>
+                    <React.Fragment key='right'>
+                        <IconButton color="#e8f6fb" aria-label="open drawer" edge="end" onClick={toggleDrawer('right', true)}
+                            className={clsx(mobileOpen && classes.hide)}>
+                            <MenuIcon />
+                            <div className={classes.left}>{brandComponent}</div>
+                        </IconButton>
+                        <Drawer anchor='right' open={mobileOpen['right']} onClose={toggleDrawer('right', false)}>            
+                            {list('right')}
+                        </Drawer>
+                    </React.Fragment>
+                </div>
+                
             </AppBar>
             <div className={classes.placeholder} />
         </div>

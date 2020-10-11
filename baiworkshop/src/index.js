@@ -7,8 +7,15 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import * as serviceWorker from './serviceWorker';
+
+// Import the pages
 import AcademicPrograms from './pages/AcademicPrograms';
-import cpf2020 from './pages/BAI';
+import cpf2020 from './pages/BAI/cpf2020';
+import grants2020 from './pages/BAI/grants2020';
+import organizers2020 from './pages/BAI/organizers2020';
+import programs2020 from './pages/BAI/programs2020';
+import subInstructions2020 from './pages/BAI/submissionsInstructions2020';
+
 
 library.add(fab, fas);
 
@@ -17,7 +24,11 @@ ReactDOM.render(
         <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/academicprograms" component={AcademicPrograms} exact />
-            <Route path="/bai2020" component={cpf2020} exact />
+            <Route path="/cpfbai2020" component={cpf2020} exact />
+            <Route path="/grants2020" component={grants2020} exact />
+            <Route path="/organizers2020" component={organizers2020} exact />
+            <Route path="/programs2020" component={programs2020} exact />
+            <Route path="/subInstructions2020" component={subInstructions2020} exact />
         </Switch>
     </BrowserRouter>,
   document.getElementById('root')

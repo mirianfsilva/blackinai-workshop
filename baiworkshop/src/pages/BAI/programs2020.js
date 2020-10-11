@@ -2,16 +2,19 @@ import React from 'react';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import { ThemeProvider, Container, Box } from '@material-ui/core';
-import ContentFile from './../../components/Markdown/readfile';
+import ContentFile from '../../components/Markdown/readfile';
 import theme from '../../theme';
-import cpfbai2020 from './../../posts/bai2020/CallForSubmissions2020.md';
+// Import your makdown file
+import programsbai2020 from './../../posts/bai2020/Programs2020.md';
 
 function cpf2020() {
     return (
         <ThemeProvider theme={theme}>
             <Navbar />
-            <ContentFile href={cpfbai2020}>
-                Black in AI: Call For Submissions 2020
+            {/* href = link from you markdown file */}
+            <ContentFile href={programsbai2020}>
+                {/* Insert the title page here */}
+                Black in AI: Programs 2020
             </ContentFile>
             <Footer />
         </ThemeProvider>

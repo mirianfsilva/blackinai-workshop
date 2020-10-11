@@ -108,6 +108,10 @@ function Navbar(props) {
             text: 'BAI 2020',
             path: '/cpfbai2020',
         },
+        {
+            text: 'Contact Us',
+            path: 'mailto:blackinai2020@googlegroups.com',
+        },
     ]
 
     const [mobileOpen, setMobileOpen] = React.useState({

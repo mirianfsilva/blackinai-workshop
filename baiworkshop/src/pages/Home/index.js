@@ -7,8 +7,9 @@ import theme from './../../theme';
 import Header from '../../components/Header';
 import CommunityValues from '../../components/CommunityValues';
 import TeamMembers from '../../components/TeamMembers';
-import JoinUs from '../../components/JoinUs';
+import AcademicProgram from '../../components/AcademicPrograms';
 import RelatedOrganizations from '../../components/RelatedOrganizations';
+import CallForPapers2020 from '../../components/CallForPapers2020';
 
 function Home() {
     return (
@@ -17,8 +18,9 @@ function Home() {
             <SectionNavbars />
             <Navbar/>
             <Header/>
+            <CallForPapers2020/>
             <CommunityValues/>
-            <JoinUs/>
+            <AcademicProgram/>
             {/* <TeamMembers/> */}
             <RelatedOrganizations/>
             <Footer/>

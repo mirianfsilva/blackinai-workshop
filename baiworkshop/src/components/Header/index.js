@@ -22,8 +22,8 @@ const styles = (theme) => ({
         backgroundPosition: 'center',
     },
     container: {
-        marginTop: theme.spacing(8),
-        marginBottom: theme.spacing(10),
+        marginTop: theme.spacing(-10),
+        // marginBottom: theme.spacing(2),
         display: 'flex',
         position: 'relative',
     },
@@ -31,11 +31,11 @@ const styles = (theme) => ({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        padding: theme.spacing(0, 5),
+        padding: theme.spacing(0, 2),
     },
     card: {
-        marginTop: theme.spacing(10),
-        marginBottom: theme.spacing(30),
+        marginTop: theme.spacing(5),
+        marginBottom: theme.spacing(5),
     },
     divider: {
         size: "5px",

@@ -122,7 +122,7 @@ function Footer(props) {
                         </Typography>
                         <ul className={classes.list} style={{ color:'#f8f7f7'}}>
                             <li className={classes.listItem}>
-                                <Typography variant="body1" style={{ color:'#f8f7f7'}} href="/">Physical address, if available will go right here.</Typography>
+                                <Typography variant="body1" style={{ color:'#f8f7f7'}} href="/">blackinai2020@googlegroups.com</Typography>
                             </li>
                             {/* <li>
                                 <Typography style={{ color:'#f8f7f7'}} variant="body1" marked="left" gutterBottom>

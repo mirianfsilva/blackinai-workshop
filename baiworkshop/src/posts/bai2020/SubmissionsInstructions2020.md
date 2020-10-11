@@ -10,13 +10,14 @@ We also welcome position papers and demos related to these areas. Work may be pr
 
 All submissions must be in PDF format. Submissions are limited to two content pages, including all figures and tables. An additional page containing only references is allowed.​ Submissions should be in a​ single column ​, typeset using ​11-point or larger fonts and have at least ​1-inch margin all around. Submissions that do not follow these guidelines risk being rejected without consideration of their merits. We encourage authors to use one of these templates to prepare their submission:
 
-- [Overleaf template](https://www.overleaf.com/project/5f4f9b1b8772b50001363fbe)
+- [Overleaf template](https://www.overleaf.com/latex/templates/neurips-2020/mnshsmqkjsqz)
 - [Word template](https://drive.google.com/file/d/1NR0ac0u0BiE4xqnZpkShPF4zLSa3ASqw/view)
 
 ### Timeline
 ----
 - **Paper submission deadline:**
-    - Fri October 2, 2020 11:00 PM UTC:
+    - ~~Fri October 2, 2020 11:00 PM UTC~~:
+    - **DEADLINE EXTENSION: 14TH OCTOBER 2020**
 - **First round of decisions:**
     - Fri October 23, 2020
 - **Rebuttal:**

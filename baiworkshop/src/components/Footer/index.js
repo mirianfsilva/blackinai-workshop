@@ -130,7 +130,7 @@ function Footer(props) {
                             </li>
                             <li className={classes.listItem}>
                                 <Typography variant="body1" style={{ color:'#f8f7f7'}} href="/">
-                                    Information regarding the 2020 Black in AI Workshop: 
+                                    2020 workshop information: 
                                     blackinai2020@googlegroups.com
                                 </Typography>
                             </li>

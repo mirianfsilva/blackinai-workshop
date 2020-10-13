@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { Container, Divider, Chip, Button } from '@material-ui/core/';
+import { Container, Divider, Chip, Button, Link} from '@material-ui/core/';
 import Typography from './../Typography';
 import backgroundImage from './../../assets/img/appCurvyLines.png';
 
@@ -93,7 +93,7 @@ function CommunityValues(props) {
                         <img src={backgroundImage} className={classes.curvyLines} />
                         <Grid item xs={12} md={6}>
                             <Typography variant="h2" color="secondary" className={classes.title}>
-                                We’re fixing the diversity crisis in AI.
+                                We're addressing the diversity crisis in AI
                             </Typography>
                             <ColorButton className={classes.chip} variant="contained" href="/academicprograms">
                                 Our Programns
@@ -113,15 +113,15 @@ function CommunityValues(props) {
                                 field of Artificial Intelligence
                             </Typography>
                             <Typography variant="body1" className={classes.title}>
-                                Our initiatives include an academic positions academic program, events at 
-                                various conferences related to AI, advocacy, and community building.
+                                Our initiatives include an academic positions program, events at various 
+                                conferences related to AI, advocacy, and community building.
                             </Typography>
                             <Typography variant="h4" className={classes.title}>
                                 If you self-identify as Black, join us.
                             </Typography>
                             <Typography variant="body1" className={classes.title}>
                                 If you are in the <b>field of AI and self-identify as Black</b>, please 
-                                fill out the Google Form in "Join Us" button, to request to join and we will add you 
+                                fill out the <Link color="inherit" href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform">Google Form</Link>, to request to join and we will add you 
                                 to various platforms that we maintain. We also welcome allies to 
                                 join our group using the Google form. Allies will be added to our 
                                 email lists, where we send out group updates and requests for 

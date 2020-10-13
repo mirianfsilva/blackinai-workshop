@@ -93,6 +93,11 @@ const organizationslist = [
         image: 'https://media-exp1.licdn.com/dms/image/C560BAQHTNAq7y0nBOQ/company-logo_200_200/0?e=2159024400&v=beta&t=n68idCl54ApUp4E3NBQ3F2btMke4hDKjy6O1eYfrBOM',
         link: 'https://wimlworkshop.org/',
     },
+    {
+        id: 6, title: 'Queer in AI',
+        image: 'https://pbs.twimg.com/profile_images/1291532732166627328/4pMskud1.jpg',
+        link: 'https://sites.google.com/view/queer-in-ai/',
+    }
 ];
 
 function RelatedOrganizations(props) {

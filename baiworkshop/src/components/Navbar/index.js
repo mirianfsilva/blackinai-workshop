@@ -45,7 +45,7 @@ const styles = (theme) => ({
     rightLink: {
         fontSize: 16,
         color: theme.palette.primary.dark,
-        marginLeft: theme.spacing(5),
+        marginLeft: theme.spacing(3),
         paddingTop: theme.spacing(2),
     },
     linkSecondary: {
@@ -115,12 +115,12 @@ function Navbar(props) {
             path: '/academicprograms',
         },
         {
-            text: 'BAI 2020',
+            text: 'BAI 2020 Workshop',
             path: '/cpfbai2020',
         },
         {
             text: 'Contact Us',
-            path: 'mailto:blackinai2020@googlegroups.com',
+            path: '/contact',
         },
     ]
 

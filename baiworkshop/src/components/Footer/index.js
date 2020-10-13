@@ -87,7 +87,7 @@ function Footer(props) {
         { id: 1, name: "Facebook", link: 'https://www.facebook.com/blackinai', image: <FontAwesomeIcon icon={["fab", "facebook"]} /> },
         { id: 2, name: "Twitter", link: 'https://twitter.com/black_in_ai', image: <FontAwesomeIcon icon={["fab", "twitter"]} /> },
         { id: 3, name: "Instagram", link: 'https://www.instagram.com/blackinai/', image: <FontAwesomeIcon icon={["fab", "instagram"]} /> },
-        { id: 4, name: "Email", link: 'mailto:blackinai-board@googlegroups.com', image: <FontAwesomeIcon icon={["fas", "envelope"]} /> },
+        // { id: 4, name: "Email", link: 'mailto:blackinai-board@googlegroups.com', image: <FontAwesomeIcon icon={["fas", "envelope"]} /> },
     ];
 
     return (
@@ -116,13 +116,23 @@ function Footer(props) {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item xs={6} sm={4} md={3}>
+                    <Grid item xs={6} sm={4} md={4}>
                         <Typography style={{ color:'#f8f7f7'}} variant="h6" marked="left" gutterBottom>
                             CONTACT US
                         </Typography>
                         <ul className={classes.list} style={{ color:'#f8f7f7'}}>
                             <li className={classes.listItem}>
-                                <Typography variant="body1" style={{ color:'#f8f7f7'}} href="/">blackinai2020@googlegroups.com</Typography>
+                                <Typography variant="body1" style={{ color:'#f8f7f7'}} href="/">
+                                    General Information: 
+                                    <br></br>
+                                    blackinai-board@googlegroups.com
+                                </Typography>
+                            </li>
+                            <li className={classes.listItem}>
+                                <Typography variant="body1" style={{ color:'#f8f7f7'}} href="/">
+                                    Information regarding the 2020 Black in AI Workshop: 
+                                    blackinai2020@googlegroups.com
+                                </Typography>
                             </li>
                             {/* <li>
                                 <Typography style={{ color:'#f8f7f7'}} variant="body1" marked="left" gutterBottom>

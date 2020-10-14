@@ -1,5 +1,5 @@
 
-##### Last updated on Sep 24, 2020
+##### Last updated on Oct 14, 2020
 
 We welcome works in artificial intelligence, including, but not limited to, computer vision, deep learning, knowledge reasoning, machine learning, multi-agent systems, natural language processing, statistical reasoning, theory, robotics, as well as applications of AI to other domains such as health and education, and submissions concerning fairness, ethics, and transparency in AI. Papers may introduce new theory, methodology, or applications.
 
@@ -32,9 +32,11 @@ Submissions will be peer-reviewed by at least 2 reviewers, in addition to an are
 
 ### Content guidelines
 ---- 
-Submissions must state the research problem, motivation, and contribution. Submission must be self-contained and include all figures, tables, and references.
+Submissions must state the research problem, motivation, and contribution. Submission must be self-contained and include all figures, tables, and references. 
 
 The following link provides sample papers from previous Black in AI workshops: [sample papers](https://github.com/blackinai/blackinai.github.io/tree/master/papers)
+
+## Submit your work at: [BLACKINAI2020](https://cmt3.research.microsoft.com/BLACKINAI2020)
 
 ### Rebuttals
 --- 

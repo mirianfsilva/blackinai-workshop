@@ -1,4 +1,4 @@
-##### Last updated on Sep 24, 2020
+##### Last updated on Oct 14, 2020
 
 We invite submissions for the Fourth Black in AI Workshop (Virtual) Workshop (co-located with [NeurIPS 2020](https://nips.cc/). Both the Black in AI workshop and the NeurIPS conference will be held in a virtual (online) format.
 
@@ -23,3 +23,7 @@ The workshop will feature invited talks from prominent researchers and practitio
 ### Registration
 --- 
 Registration starts on Tue September 15, 2020. We strongly encourage workshop attendees to register for the workshops as early as possible. The registration can be found [here](https://nips.cc/accounts/login/?next=/Profile).
+
+### [Submissions Instructions 2020](http://localhost:3000/subInstructions2020)
+
+### [Apply for NeurIPS Registration Assistance and Data Grants](http://localhost:3000/datagrant2020)

@@ -64,20 +64,20 @@ function Header(props) {
                     </Grid>
                     <Grid item xs={12} md={6}>
                         <CardMedia component="img" height="210" image={image1}
-                            alt="Almost ten black people, smiling, with raised hands, some sitting and others standing. All wearing the black in AI badge.">
+                            alt="Almost ten black people, smiling, with raised hands. All wearing the black in AI badge.">
                         </CardMedia>
                         <br></br>
                         <CardMedia component="img" alt="" height="210" image={image2}
-                            alt="Black people, smiling, with their hands up, wearing T-shirts with a raised fist representing the black in AI logo.">
+                            alt="Black people, smiling, with their hands up, wearing T-shirts with a raised fist, the black in AI logo.">
                         </CardMedia>
                     </Grid>
                     <Grid item xs={12} md={6}>
                         <CardMedia component="img" alt="" height="210" image={image4}
-                            alt="A large auditorium, with several chairs and more than 50 black people sitting looking at the auditorium stage.">
+                            alt="A large auditorium, with several chairs being occupied by black people looking at the stage">
                         </CardMedia>
                         <br></br>
                         <CardMedia component="img" alt="" height="210" image={image5}
-                            alt="The Black in AI organizers, three men and three women. Everyone standing, smiling and arm in arm. They all have the conference badge hanging from their necks.">
+                            alt="The Black in AI organizers, 3 men and 3 women. Everyone standing, smiling and arm in arm.">
                         </CardMedia>
                     </Grid>
                 </Grid>

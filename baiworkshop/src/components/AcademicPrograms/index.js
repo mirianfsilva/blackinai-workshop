@@ -86,7 +86,7 @@ function JoinUs(props) {
                         postgraduate job market.
                     </Typography>
                     <ColorButton className={classes.chip} variant="contained" href="/academicprograms">
-                        Read More
+                        Academic Programs Information
                     </ColorButton>
                     {/* <JoinUsButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform">
                         Join Us

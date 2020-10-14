@@ -72,31 +72,37 @@ const organizationslist = [
         id: 1, title: 'Black Girls Code',
         image: 'https://pbs.twimg.com/profile_images/1233833521363509248/9CvAJslN_400x400.jpg',
         link: 'https://www.blackgirlscode.com/',
+        alt: 'Black Girls Code writed inside a circle representing the organization logo',
     },
     {
         id: 2, title: 'Data Science Africa',
         image: 'https://www.datascienceafrica.org/img/logo.png',
         link: 'http://www.datascienceafrica.org/',
+        alt: 'A map of the African continent representing the Data Science Africa organization logo',
     },
     {
         id: 3, title: 'Deep Learning Indaba',
         image: 'https://avatars3.githubusercontent.com/u/30663580?s=280&v=4',
         link: 'https://deeplearningindaba.com/2020/',
+        alt: 'A tree representing the Deep Learning Indaba organization logo',
     },
     {
         id: 4, title: 'LatinX in AI',
         image: 'https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/mpqx1ctwlaxjhhhbmudy',
         link: 'http://www.latinxinai.org/',
+        alt: 'LXAI writed inside the white circle, representing the Latin in AI organization logo',
     },
     {
         id: 5, title: 'Women in Machine Learning',
         image: 'https://media-exp1.licdn.com/dms/image/C560BAQHTNAq7y0nBOQ/company-logo_200_200/0?e=2159024400&v=beta&t=n68idCl54ApUp4E3NBQ3F2btMke4hDKjy6O1eYfrBOM',
         link: 'https://wimlworkshop.org/',
+        alt: 'WiML written inside a circle, representing the Woman in Machine Learning organization logo'
     },
     {
         id: 6, title: 'Queer in AI',
         image: 'https://pbs.twimg.com/profile_images/1291532732166627328/4pMskud1.jpg',
         link: 'https://sites.google.com/view/queer-in-ai/',
+        alt: 'A black and brown brain design to represent racial diversity, also in pink, blue and white - the colors of the trans flag, in addition to the colors of the LBGT flag representing Queer in AI organization'
     }
 ];
 

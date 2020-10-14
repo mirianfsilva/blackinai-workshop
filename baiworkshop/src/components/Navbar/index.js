@@ -98,7 +98,7 @@ function Donate() {
             <input type="hidden" name="currency_code" value="USD" />
             <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHostedGuest" />
             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="3" height="3" />
+            <img alt="paypal button for donations" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="3" height="3" />
         </form>
     );
 }
@@ -161,7 +161,7 @@ function Navbar(props) {
         </div>
     );
 
-    const brandComponent = <Link underline="none" className={classes.left} href="/"><img src={logo} width={80} alt=""/></Link>;
+    const brandComponent = <Link underline="none" className={classes.left} href="/"><img src={logo} width={80} alt="The raised fist, the black in AI logo."/></Link>;
 
 
     return (

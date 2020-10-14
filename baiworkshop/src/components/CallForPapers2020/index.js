@@ -86,7 +86,7 @@ function CallForPapers2020(props) {
                     <Grid container spacing={4}>
                         <Grid item xs={12} md={5}>
                                 <div className={classes.item}>
-                                    <img src={backgroundImage} className={classes.curvyLines} />
+                                    <img src={backgroundImage} className={classes.curvyLines} alt="empty image"/>
                                 </div>
                             </Grid>
                             <Grid item xs={12} md={5}>

@@ -90,7 +90,7 @@ function CommunityValues(props) {
             <Container className={classes.container}>
                 <Grid container spacing={12}>
                     <Grid container spacing={3}>
-                        <img src={backgroundImage} className={classes.curvyLines} />
+                        <img src={backgroundImage} className={classes.curvyLines} alt="empty image"/>
                         <Grid item xs={12} md={6}>
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 We're addressing the diversity crisis in AI

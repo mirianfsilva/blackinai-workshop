@@ -21,7 +21,7 @@ function Home() {
             <Header/>
             <CommunityValues/>
             <AcademicProgram/>
-            {/* <TeamMembers/> */}
+            <TeamMembers/>
             <RelatedOrganizations/>
             <Footer/>
         </ThemeProvider>

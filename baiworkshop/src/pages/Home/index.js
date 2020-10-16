@@ -10,6 +10,7 @@ import TeamMembers from '../../components/TeamMembers';
 import AcademicProgram from '../../components/AcademicPrograms';
 import RelatedOrganizations from '../../components/RelatedOrganizations';
 import CallForPapers2020 from '../../components/CallForPapers2020';
+import MeetOrganizers from '../../components/MeetOrganizers';
 
 function Home() {
     return (
@@ -21,7 +22,7 @@ function Home() {
             <Header/>
             <CommunityValues/>
             <AcademicProgram/>
-            <TeamMembers/>
+            <MeetOrganizers/>
             <RelatedOrganizations/>
             <Footer/>
         </ThemeProvider>

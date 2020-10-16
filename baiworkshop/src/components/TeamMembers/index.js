@@ -136,7 +136,7 @@ function TeamMembers(props) {
             <Container className={classes.container}>
                 <Grid container spacing={4}>
                     <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2">
+                        <Typography variant="h2" marked="center" align="center" component="h2">
                             Black in AI 2020 Workshop Organizers
                         </Typography>
                     </Grid>

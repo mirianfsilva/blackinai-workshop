@@ -39,13 +39,14 @@ const styles = (theme) => ({
         color: theme.palette.primary.light,
     },
     right: {
-        flex: 1,
+        // flex: 1,
         display: 'flex',
+        marginRight: theme.spacing(10),
     },
     rightLink: {
         fontSize: 16,
         color: theme.palette.primary.dark,
-        marginLeft: theme.spacing(3),
+        marginLeft: theme.spacing(5),
         paddingTop: theme.spacing(2),
     },
     linkSecondary: {
@@ -121,6 +122,10 @@ function Navbar(props) {
         {
             text: 'Contact Us',
             path: '/contact',
+        },
+        {
+            text: 'Organizers',
+            path: '/organizers',
         },
     ]
 

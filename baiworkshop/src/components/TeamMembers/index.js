@@ -79,7 +79,7 @@ const teamlist = [
         image: ignatius,
         title: 'Ignatius Ezeani', 
         subtitle: 'Lancaster University, UK',
-        bio: 'Ignatius is a Senior Teaching/Research Associate with the Data Science Group at Lancaster University. I am interested in the application of NLP techniques in building resources for low-resource languages especially African languages, but my interests span other related areas like corpus linguistics, distributional semantics, machine learning, deep neural models and general AI',
+        bio: 'Ignatius is a Senior Teaching/Research Associate with the Data Science Group at Lancaster University. He\'s interested in the application of NLP techniques in building resources for low-resource languages especially African languages, but his interests span other related areas like corpus linguistics, distributional semantics, machine learning, deep neural models and general AI',
         // icon_1: <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x"/>,
         // icon_2: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />,
     },

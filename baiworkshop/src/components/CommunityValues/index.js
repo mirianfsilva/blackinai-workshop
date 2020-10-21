@@ -121,7 +121,7 @@ function CommunityValues(props) {
                             </Typography>
                             <Typography variant="body1" className={classes.title}>
                                 If you are in the <b>field of AI and self-identify as Black</b>, please 
-                                fill out the <Link color="inherit" href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform"><u><b>Google Form (link)</b></u></Link>, to request to join and we will add you 
+                                fill out the <Link color="inherit" href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform"><u><b>Google Form</b></u></Link>, to request to join and we will add you 
                                 to various platforms that we maintain. We also welcome allies to 
                                 join our group using the Google form. Allies will be added to our 
                                 email lists, where we send out group updates and requests for 

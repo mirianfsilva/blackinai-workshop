@@ -106,7 +106,8 @@ function CallForPapers2020(props) {
                         The workshop will be held virtually on <b>Monday, December 7 2020</b>. 
                         We encourage individuals from Black, African, and Diasporic communities to submit their work.
 
-                        <b className={classes.alert}> Submission deadline (EXTENDED): Wednesday October 14th, 2020 11:00 PM UTC</b>
+                        <b className={classes.alert}> Submission deadline has NOW PASSED! </b> 
+                        <b> Authors of accepted papers will be notified after November 6th 2020.</b>
 
                     </Typography>
                     <ColorButton className={classes.chip} variant="contained" href="https://bit.ly/3iQQmgr">

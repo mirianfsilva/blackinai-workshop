@@ -123,8 +123,8 @@ const teamlist = [
         image: flora,
         title: 'Flora Tasse', 
         subtitle: 'Streem Inc',
-        link: '/',
-        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1.5x"/>,
+        link: 'https://twitter.com/ftasse',
+        icon: <FontAwesomeIcon icon={["fab", "twitter"]} size="1.5x"/>,
     },
     {
         image: tobi,

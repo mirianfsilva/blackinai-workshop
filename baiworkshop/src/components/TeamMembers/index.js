@@ -104,9 +104,9 @@ const secondList = [
         title: 'Flora Tasse', 
         subtitle: 'Streem Inc',
         bio: 'Flora is the Head of CV/AR at Streem. She specialises in AI applied to Computer Graphics and Vision problems faced in AR/VR. Her team at Streem is making the mobile phone\'s camera more intelligent, by building AI agents that can understand images/videos and augment them with relevant interactive virtual content. She joined Streem, after it acquires her startup Selerio, which was spun out of her PhD work at Cambridge University.  At Cambridge, Flora research focused on 3D shape retrieval using different query types such as 3D models, images/sketches and range scans. This work was awarded the 2013 Google Doctoral Fellowship in Computer Graphics and published in various top-tier venues, including ICCV and SIGGRAPH Asia. She served on several international program committees such as ICML, ICLR and Eurographics. Notably she was Paper Chair of the 2019 Black in AI workshop, co-located with NeurIPS. She was recently named one of the Rework Top 30 UK Women in AI and appeared on Computer Weekly Most Influential women in UK Tech longlist.',
-        icon_1: <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x"/>,
+        icon_1: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
         // icon_2: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
-        link_1: '/',
+        link_1: 'https://twitter.com/ftasse',
     },
     {
         image: tobi,

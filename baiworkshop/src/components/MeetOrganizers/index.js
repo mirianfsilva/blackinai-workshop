@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { Container, Button, Avatar, Card, CardContent} from '@material-ui/core/';
+import { Container, Button, Avatar, Card, CardContent, Link} from '@material-ui/core/';
 import Typography from '../Typography';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import charles from './../../assets/img/team/charles.jpeg';
 import flora from './../../assets/img/team/flora.jpeg';
@@ -53,10 +54,13 @@ const styles = (theme) => ({
         height: theme.spacing(15),
     },
     card: {
-        height: '86px',
+        height: '90px',
         marginTop: theme.spacing(1),
         marginBottom: theme.spacing(2),
     },
+    icon: {
+        color: theme.palette.primary.dark,
+    }
 });
 
 const ColorButton = withStyles((theme) => ({
@@ -91,41 +95,57 @@ const teamlist = [
         image: charles,
         title: 'Charles Earl', 
         subtitle: 'Automattic.com',
+        link: '/',
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1.5x"/>,
     },
     {
         image: victor,
         title: 'Victor Silva',
         subtitle: 'University of Alberta',
+        link: 'https://webdocs.cs.ualberta.ca/~vsilva/',
+        icon: <FontAwesomeIcon icon={["fa", "link"]} size="1.5x"/>,
     },
     {
         image: ignatius,
         title: 'Ignatius Ezeani', 
         subtitle: 'Lancaster University',
+        link: 'https://www.lancaster.ac.uk/scc/about-us/people/ignatius-ezeani',
+        icon: <FontAwesomeIcon icon={["fa", "link"]} size="1.5x"/>,
     },
     {
         image: foutse,
         title: 'Foutse Yuehgoh', 
         subtitle: 'Coexel',
+        link: 'https://twitter.com/yuehgoh',
+        icon: <FontAwesomeIcon icon={["fab", "twitter"]} size="1.5x"/>,
     },
     {
         image: flora,
         title: 'Flora Tasse', 
         subtitle: 'Streem Inc',
+        link: '/',
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1.5x"/>,
     },
     {
         image: tobi,
         title: 'Tobi Olatunji', 
         subtitle: 'enlitic.com',
+        link: 'https://www.linkedin.com/in/tobi-olatunji-md',
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
     },
     {
         image: salomey,
         title: 'Salomey Osei', 
         subtitle: 'African Masters of Machine Intelligence (AMMI)',
+        link: 'https://www.linkedin.com/in/salomey-osei-4b08a5b8/',
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1.5x"/>,
     },
     {
         image: nwamaka,
         title: 'Nwamaka Okafor', 
         subtitle: 'University College Dublin',
+        link: 'https://www.linkedin.com/in/amaka-okafor/',
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1.5x"/>,
     },
 ];
 
@@ -147,10 +167,10 @@ function MeetOrganizers(props) {
                             <Card className={classes.card}>
                                 <CardContent>
                                     <Typography className={classes.cardtitle} variant="h6" gutterBottom>
-                                        {tile.title}
+                                        {tile.title} <Link className={classes.icon} href={tile.link}>{tile.icon}</Link>
                                     </Typography>
                                     <Typography variant="body2" component="h2">
-                                        {tile.subtitle}
+                                        {tile.subtitle} 
                                     </Typography>
                                 </CardContent>
                             </Card>

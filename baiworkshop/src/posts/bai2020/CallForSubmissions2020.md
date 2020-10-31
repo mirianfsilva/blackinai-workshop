@@ -24,6 +24,6 @@ The workshop will feature invited talks from prominent researchers and practitio
 --- 
 Registration starts on Tue September 15, 2020. We strongly encourage workshop attendees to register for the workshops as early as possible. The registration can be found [here](https://nips.cc/accounts/login/?next=/Profile).
 
-### [Submissions Instructions 2020](http://localhost:3000/subInstructions2020)
+### [Submissions Instructions 2020](https://blackinai2020.vercel.app/subInstructions2020)
 
-### [Apply for NeurIPS Registration Assistance and Data Grants](http://localhost:3000/datagrant2020)
+### [Apply for NeurIPS Registration Assistance and Data Grants](https://blackinai2020.vercel.app/datagrant2020)

@@ -96,7 +96,7 @@ const teamlist = [
         image: charles,
         title: 'Charles Earl', 
         subtitle: 'Automattic.com',
-        link: '/',
+        link: 'https://www.linkedin.com/in/charlescearl6299/',
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1.5x"/>,
     },
     {

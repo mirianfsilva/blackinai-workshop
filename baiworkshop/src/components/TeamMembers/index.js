@@ -67,7 +67,7 @@ const teamlist = [
         bio: 'Charles Earl currently lives near Atlanta, Georgia (US) and works at Automattic.com -- the company behind WordPress and tumblr -- as a data scientist. He is passionate about building technology that is transparent, equitable, and just. Charles grew up in Atlanta and is a graduate of Morehouse College, Georgia Tech, UC Berkeley, and the University of Chicago.',
         icon_1: <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x"/>,
         // icon_2: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
-        link_1: '/'
+        link_1: 'https://www.linkedin.com/in/charlescearl6299/'
     },
     {
         image: victor,

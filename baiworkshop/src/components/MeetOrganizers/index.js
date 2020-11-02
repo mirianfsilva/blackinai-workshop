@@ -15,6 +15,7 @@ import salomey from './../../assets/img/team/salomey.jpg';
 import tobi from './../../assets/img/team/tobi.jpg';
 import victor from './../../assets/img/team/victor.jpg';
 import mirian from './../../assets/img/team/mirian.png';
+import krystal from './../../assets/img/team/krystal.png';
 
 const styles = (theme) => ({
     root: {
@@ -154,6 +155,13 @@ const teamlist = [
         subtitle: 'IBM',
         link: 'https://twitter.com/mirianfrsilva',
         icon: <FontAwesomeIcon icon={["fab", "twitter"]} size="1.5x"/>,
+    },
+    {
+        image: krystal,
+        title: 'Krystal Maughan', 
+        subtitle: 'University of Vermont',
+        link: 'https://www.linkedin.com/in/krystal-maughan-3563a215/',
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1.5x"/>,
     },
 ];
 

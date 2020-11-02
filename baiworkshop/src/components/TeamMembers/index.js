@@ -16,6 +16,7 @@ import salomey from './../../assets/img/team/salomey.jpg';
 import tobi from './../../assets/img/team/tobi.jpg';
 import victor from './../../assets/img/team/victor.jpg';
 import mirian from './../../assets/img/team/mirian.png';
+import krystal from './../../assets/img/team/krystal.png';
 
 const styles = (theme) => ({
     root: {
@@ -48,15 +49,15 @@ const styles = (theme) => ({
         color: theme.palette.primary.dark,
     },
     card: {
-        height: '300px',
+        height: '350px',
         marginTop: theme.spacing(1),
         marginBottom: theme.spacing(8),
     },
     cardtwo: {
-        height: '410px',
+        height: '420px',
         marginTop: theme.spacing(1),
         marginBottom: theme.spacing(5),
-    }
+    },
 });
 
 const teamlist = [
@@ -90,15 +91,6 @@ const teamlist = [
 ];
 
 const secondList = [
-    {
-        image: foutse,
-        title: 'Foutse Yuehgoh', 
-        subtitle: 'Coexel',
-        bio: 'Foutse is a Machine learning researcher, Co-founder of WPSYG association, who likes to volunteer on data science-related projects. She holds 2 master\'s degrees one in Machine learning and Big data from the African Institute for mathematical sciences (AIMS) and the other in information and data processing from the University of Paris Saclay, France. She is currently a Data Analyst at Coexel, France. She uses NLP to optimise news search and recommendations.',
-        icon_1: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
-        // icon_2: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
-        link_1: 'https://twitter.com/yuehgoh',
-    },
     {
         image: flora,
         title: 'Flora Tasse', 
@@ -135,14 +127,35 @@ const secondList = [
         // icon_2: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
         link_1: 'https://www.linkedin.com/in/amaka-okafor',
     },
+];
+
+const thirdList = [
+    {
+        image: foutse,
+        title: 'Foutse Yuehgoh', 
+        subtitle: 'Coexel',
+        bio: 'Foutse is a Machine learning researcher, Co-founder of WPSYG association, who likes to volunteer on data science-related projects. She holds 2 master\'s degrees one in Machine learning and Big data from the African Institute for mathematical sciences (AIMS) and the other in information and data processing from the University of Paris Saclay, France. She is currently a Data Analyst at Coexel, France. She uses NLP to optimise news search and recommendations.',
+        icon_1: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
+        // icon_2: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
+        link_1: 'https://twitter.com/yuehgoh',
+    },
     {
         image: mirian,
         title: 'Mírian Silva', 
         subtitle: 'IBM',
-        bio: '(She/Her) Currently Software Engineer at IBM Brazil. Also Instructor and creator of Guided Projects on Coursera. B.S. Degree in Computational Mathematics @ Federal University of Minas Gerais. Former Undergrad Researcher in Hidden Markov Models and their Machine Learning applications at UFMG Math department. Interested in AI/ML, Optimization and Computational Biology. Completely involved in actions that promote women in STEM and Founder of Girls Support Girls Community in Belo Horizonte, Brazil. Black in AI Workshop 2020 collaborator volunteer.',
+        bio: '(She/Her) Currently Software Engineer at IBM Brazil. Also Instructor and creator of Guided Projects on Coursera. B.S. Degree in Computational Mathematics @ Federal University of Minas Gerais, Brazil. Interested in AI/ML, Optimization and Computational Biology. Completely involved in actions that promote women in STEM and Founder of Girls Support Girls Community in Belo Horizonte, Brazil. Black in AI Workshop 2020 collaborator volunteer.',
         icon_1: <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x"/>,
         //icon_2: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
         link_1: 'https://www.linkedin.com/in/mirianfsilva/',
+    },
+    {
+        image: krystal,
+        title: 'Krystal Maughan', 
+        subtitle: 'University of Vermont',
+        bio: 'Krystal is a second year PhD student at the University of Vermont, where she is reaching Provable fairness, privacy and machine learning. She is an active member of Black in AI and has previously served as co-organizer for the lunch at Black in AI at AAAI and the Black in AI at ACL social.',
+        icon_1: <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x"/>,
+        //icon_2: <FontAwesomeIcon icon={["fab", "twitter"]} size="2x"/>,
+        link_1: 'https://www.linkedin.com/in/krystal-maughan-3563a215/',
     },
 ];
 
@@ -195,6 +208,33 @@ function TeamMembers(props) {
                                     </Typography>
                                     <Typography variant="body1" component="h2">
                                         {tile.subtitle} 
+                                        <Grid container spacing={2} className={classes.icon} >
+                                        <Grid md={2}>
+                                            <Link className={classes.icon} href={tile.link_1}>{tile.icon_1}</Link>
+                                        </Grid>
+                                        <Grid md={2}>
+                                            <Link className={classes.icon} href={tile.link_2}>{tile.icon_2}</Link>
+                                        </Grid>
+                                    </Grid>
+                                    </Typography>
+                                    <br></br>
+                                    <Typography variant="body2" component="p">
+                                        {tile.bio}
+                                    </Typography>
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                    ))}
+                    {thirdList.map((tile) => (
+                        <Grid item xs={12} md={4}>
+                            <Avatar alt={tile.title} src={tile.image} className={classes.avatarSize} />
+                            <Card className={classes.card}>
+                                <CardContent>
+                                    <Typography className={classes.title} variant="h6" gutterBottom>
+                                        {tile.title}
+                                    </Typography>
+                                    <Typography variant="body1" component="h2">
+                                        {tile.subtitle}
                                         <Grid container spacing={2} className={classes.icon} >
                                         <Grid md={2}>
                                             <Link className={classes.icon} href={tile.link_1}>{tile.icon_1}</Link>

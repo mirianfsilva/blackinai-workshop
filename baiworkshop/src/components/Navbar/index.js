@@ -7,6 +7,7 @@ import Typography from './../Typography';
 import { Link, Hidden, Drawer, IconButton, List , ListItem} from '@material-ui/core/';
 import { AppBar, Toolbar, SwipeableDrawer, Button, Menu, Grid } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from './../../assets/img/bai-logo.png';
 
 export const toolbarStyles = (theme) => ({
@@ -74,6 +75,14 @@ const styles = (theme) => ({
         [theme.breakpoints.down('sm')]: {
             display: 'block'
         }   
+    },
+    icon: {
+        alignItems: 'center',
+        fontSize: 16,
+        padding: theme.spacing(1),
+        marginLeft: theme.spacing(8),
+        paddingTop: theme.spacing(2),
+        color: theme.palette.primary.dark,
     },
 });
 
@@ -143,6 +152,12 @@ function Navbar(props) {
         setMobileOpen({ ...mobileOpen, [anchor]: open });
     };
 
+    const socialList = [
+        { id: 1, name: "Facebook", link: 'https://www.facebook.com/blackinai', image: <FontAwesomeIcon icon={["fab", "facebook"]} /> },
+        { id: 2, name: "Twitter", link: 'https://twitter.com/black_in_ai', image: <FontAwesomeIcon icon={["fab", "twitter"]} /> },
+        { id: 3, name: "Instagram", link: 'https://www.instagram.com/blackinai/', image: <FontAwesomeIcon icon={["fab", "instagram"]} /> },
+        { id: 4, name: "LinkedIn", link: 'https://www.linkedin.com/company/blackinai/', image: <FontAwesomeIcon icon={["fab", "linkedin"]} /> },
+    ];
 
     const list = (anchor) => (
         <div className={clsx(classes.list, { [classes.fullList]: anchor === 'top' || anchor === 'bottom',})}
@@ -159,6 +174,13 @@ function Navbar(props) {
                         </Link>
                     </ListItem> 
                 )}
+                {socialList.map(item => (
+                    <ListItem className={classes.icon}>
+                        <Link color="inherit" href={item.link}>
+                            {item.image}
+                        </Link>
+                    </ListItem>
+                ))}
                 <ColorButton className={classes.chip} size="small">
                     <Donate />
                 </ColorButton>

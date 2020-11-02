@@ -14,6 +14,7 @@ import nwamaka from './../../assets/img/team/nwamaka.jpg';
 import salomey from './../../assets/img/team/salomey.jpg';
 import tobi from './../../assets/img/team/tobi.jpg';
 import victor from './../../assets/img/team/victor.jpg';
+import mirian from './../../assets/img/team/mirian.png';
 
 const styles = (theme) => ({
     root: {
@@ -147,6 +148,13 @@ const teamlist = [
         link: 'https://www.linkedin.com/in/amaka-okafor/',
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1.5x"/>,
     },
+    {
+        image: mirian,
+        title: 'Mírian Silva (Collaborator)', 
+        subtitle: 'IBM',
+        link: 'https://twitter.com/mirianfrsilva',
+        icon: <FontAwesomeIcon icon={["fab", "twitter"]} size="1.5x"/>,
+    },
 ];
 
 function MeetOrganizers(props) {
@@ -176,9 +184,11 @@ function MeetOrganizers(props) {
                             </Card>
                         </Grid>
                     ))}
-                    <ColorButton className={classes.chip} align="center" variant="contained" href="/organizers">
-                        Meet the Organizers
-                    </ColorButton>
+                    <Grid item xs={12} align="center">
+                        <ColorButton className={classes.chip} align="center" variant="contained" href="/organizers">
+                            Meet the Organizers
+                        </ColorButton>
+                    </Grid> 
                 </Grid>
             </Container>
         </section>

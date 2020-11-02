@@ -87,7 +87,7 @@ function Footer(props) {
         { id: 1, name: "Facebook", link: 'https://www.facebook.com/blackinai', image: <FontAwesomeIcon icon={["fab", "facebook"]} /> },
         { id: 2, name: "Twitter", link: 'https://twitter.com/black_in_ai', image: <FontAwesomeIcon icon={["fab", "twitter"]} /> },
         { id: 3, name: "Instagram", link: 'https://www.instagram.com/blackinai/', image: <FontAwesomeIcon icon={["fab", "instagram"]} /> },
-        // { id: 4, name: "Email", link: 'mailto:blackinai-board@googlegroups.com', image: <FontAwesomeIcon icon={["fas", "envelope"]} /> },
+        { id: 4, name: "LinkedIn", link: 'https://www.linkedin.com/company/blackinai/', image: <FontAwesomeIcon icon={["fab", "linkedin"]} /> },
     ];
 
     return (
@@ -158,10 +158,10 @@ function Footer(props) {
                         </Typography>
                         <ul className={classes.list} style={{ color:'#f8f7f7'}}>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/">About Us</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://www.linkedin.com/company/blackinai/">About Us</Link>
                             </li>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/">Programs</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://blackinai2020.vercel.app/academicprograms">Programs</Link>
                             </li>
                             <li className={classes.listItem}>
                                 <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform">Membership</Link>

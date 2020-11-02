@@ -150,7 +150,7 @@ const teamlist = [
     },
     {
         image: mirian,
-        title: 'Mírian Silva (Collaborator)', 
+        title: 'Mírian Silva', 
         subtitle: 'IBM',
         link: 'https://twitter.com/mirianfrsilva',
         icon: <FontAwesomeIcon icon={["fab", "twitter"]} size="1.5x"/>,

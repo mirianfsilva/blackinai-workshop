@@ -137,7 +137,7 @@ const secondList = [
     },
     {
         image: mirian,
-        title: 'Mírian Silva (Collaborator)', 
+        title: 'Mírian Silva', 
         subtitle: 'IBM',
         bio: '(She/Her) Currently Software Engineer at IBM Brazil. Also Instructor and creator of Guided Projects on Coursera. B.S. Degree in Computational Mathematics @ Federal University of Minas Gerais. Former Undergrad Researcher in Hidden Markov Models and their Machine Learning applications at UFMG Math department. Interested in AI/ML, Optimization and Computational Biology. Completely involved in actions that promote women in STEM and Founder of Girls Support Girls Community in Belo Horizonte, Brazil. Black in AI Workshop 2020 collaborator volunteer.',
         icon_1: <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x"/>,

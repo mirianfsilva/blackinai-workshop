@@ -89,7 +89,7 @@ function InvitedSpeakersMain(props) {
                             of Black researchers in the field. We invite all members of the AI community 
                             to attend the workshop.
                         </Typography>
-                        <ColorButton className={classes.chip} variant="contained" href="/speakers2020">
+                        <ColorButton className={classes.chip} variant="contained" href="/talks2020">
                             Invited Speakers & Keynotes
                         </ColorButton>
                     </Grid>

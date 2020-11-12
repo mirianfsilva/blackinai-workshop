@@ -20,7 +20,7 @@ For further details on the paper submissions please refer to Submissions page.
 ---
 The workshop will feature invited talks from prominent researchers and practitioners, oral presentations, and a poster session. There will also be socials to facilitate networking, discussion of different career opportunities in AI, and sharing of ideas to increase participation of Black researchers in the field. We invite all members of the AI community to attend the workshop.
 
-**See all Invited Talks > [here](https://blackinai2020.vercel.app/speakers2020)**
+**See all Invited Talks > [here](https://blackinai2020.vercel.app/talks2020)**
 
 ### Registration
 --- 

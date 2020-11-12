@@ -113,8 +113,8 @@ function CallForPapers2020(props) {
                     <ColorButton className={classes.chip} variant="contained" href="https://bit.ly/3iQQmgr">
                         Read More
                     </ColorButton>
-                    <ColorButton className={classes.chip} variant="contained" href="/subInstructions2020">
-                        Submission Instructions BAI 2020
+                    <ColorButton className={classes.chip} variant="contained" href="/talks2020">
+                        BAI 2020 Invited Talks
                     </ColorButton>
                     <ColorButton className={classes.chip} variant="contained" href="/datagrant2020">
                         NeurIPS Registration Assistance and Data Grants

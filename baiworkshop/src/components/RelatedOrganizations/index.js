@@ -13,8 +13,8 @@ const styles = (theme) => ({
         backgroundColor: theme.palette.secondary.light,
     },
     container: {
-        marginTop: theme.spacing(10),
-        marginBottom: theme.spacing(10),
+        marginTop: theme.spacing(5),
+        marginBottom: theme.spacing(6),
         display: 'flex',
         position: 'relative',
     },

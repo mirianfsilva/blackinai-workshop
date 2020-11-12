@@ -1,4 +1,28 @@
 ### Sponsors 2020
-Thanks to our corporate sponsors, the workshop is free to attendees and we are able to provide inclusive travel funding to select participants.
 
-## Coming soon…
+## Diamond 
+Google
+Apple
+Deepmind
+McArthur Foundation
+Ford Foundation
+
+## Platinum
+Nvidia
+
+## Gold
+Berkeley
+AI2
+Microsoft
+Facebook
+BMO
+Amazon
+IBM
+
+## Silver
+Salesforce
+Oracle
+
+## Bronze
+Partnership on AI
+Hopper-Dean Foundation

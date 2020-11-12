@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { Container, Button } from '@material-ui/core/';
+import { Container, Button, CardMedia } from '@material-ui/core/';
 import Typography from '../Typography';
+import speakers from './../../assets/img/speakers2020/allspeakers2020.png';
 
 const styles = (theme) => ({
     root: {
@@ -12,8 +13,8 @@ const styles = (theme) => ({
         backgroundColor: theme.palette.primary.light,
     },
     container: {
-        marginTop: theme.spacing(10),
-        marginBottom: theme.spacing(10),
+        marginTop: theme.spacing(5),
+        marginBottom: theme.spacing(5),
         display: 'flex',
         position: 'relative',
         flexDirection: 'column',
@@ -68,39 +69,45 @@ const JoinUsButton = withStyles((theme) => ({
 }))(Button);
 
 
-function InvitedSpeakersPage(props) {
+function InvitedSpeakersMain(props) {
     const { classes } = props;
 
     return (
         <section className={classes.root}>
             <Container className={classes.container}>
-                <Grid item xs={12}>
-                    <Typography variant="h4" marked="center" align="center" className={classes.title}>
-                        Black in AI 2020 Invited Talks
-                    </Typography>
-                </Grid> 
-                <Grid item xs={12} md={6}>
-                    <Typography variant="h2" className={classes.title}>
-                        Invited Talks
-                    </Typography>
-                    <Typography variant="body1" className={classes.title}>
-                        The Black in AI Academic program is committed to serving as a 
-                        resource and supporting Black junior researchers as they apply 
-                        to graduate programs, navigate graduate school, and enter the 
-                        postgraduate job market.
-                    </Typography>
-                    <ColorButton className={classes.chip} variant="contained" href="/academicprograms">
-                        Academic Programs Information
-                    </ColorButton>
+            <Grid container spacing={3}>
+                <Grid container spacing={3}>
+                    <Grid item xs={12} md={6}>
+                        <Typography variant="h2" className={classes.title}>
+                            Invited Talks
+                        </Typography>
+                        <Typography variant="body1" className={classes.title}>
+                            The workshop will feature invited talks from prominent researchers 
+                            and practitioners, oral presentations, and a poster session. There 
+                            will also be socials to facilitate networking, discussion of different
+                            career opportunities in AI, and sharing of ideas to increase participation 
+                            of Black researchers in the field. We invite all members of the AI community 
+                            to attend the workshop.
+                        </Typography>
+                        <ColorButton className={classes.chip} variant="contained" href="/speakers2020">
+                            Invited Speakers & Keynotes
+                        </ColorButton>
+                    </Grid>
+                    <Grid item xs={12} md={6}>
+                        <CardMedia component="img" image={speakers}
+                            alt="Almost invited speakers headshot image">
+                        </CardMedia>
+                    </Grid>
                 </Grid>
+            </Grid>
             </Container>
         </section>
 
     );
 }
 
-InvitedSpeakersPage.propTypes = {
+InvitedSpeakersMain.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(InvitedSpeakersPage);
+export default withStyles(styles)(InvitedSpeakersMain);

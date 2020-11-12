@@ -11,7 +11,7 @@ import AcademicProgram from '../../components/AcademicPrograms';
 import RelatedOrganizations from '../../components/RelatedOrganizations';
 import CallForPapers2020 from '../../components/CallForPapers2020';
 import MeetOrganizers from '../../components/MeetOrganizers';
-import InvitedSpeakersMain from '../../components/InvitedSpeakers2020';
+import Sponsors from '../../components/Sponsors';
 
 function Home() {
     return (
@@ -22,10 +22,10 @@ function Home() {
             <CallForPapers2020/>
             <Header/>
             <CommunityValues/>
-            <InvitedSpeakersMain/>
             <AcademicProgram/>
             <MeetOrganizers/>
             <RelatedOrganizations/>
+            <Sponsors/>
             <Footer/>
         </ThemeProvider>
     );

@@ -35,7 +35,7 @@ ReactDOM.render(
             <Route path="/datagrant2020" component={datagrant2020} exact />
             <Route path="/contact" component={contactUs} exact />
             <Route path="/organizers" component={Organizers} exact />
-            <Route path="/speakers2020" component={speakers2020} exact/>
+            <Route path="/talks2020" component={speakers2020} exact/>
         </Switch>
     </BrowserRouter>,
   document.getElementById('root')

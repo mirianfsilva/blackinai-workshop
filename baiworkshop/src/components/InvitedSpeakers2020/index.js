@@ -93,7 +93,7 @@ const JoinUsButton = withStyles((theme) => ({
 const talks = [
     {
         image: ramon,
-        talk: 'Talk: Fireside Chat on his new book "Machine Learning, Sociogeny & Race',
+        talk: 'Talk: Fireside Chat on his new book "Machine Learning, Sociogeny & Race"',
         name: 'Ramon Amaro',
         title: 'Lecturer in Art and Visual Culture of the Global South',
         organization: 'University College London',

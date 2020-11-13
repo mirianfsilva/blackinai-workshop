@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ramon from './../../assets/img/speakers2020/RamonAmaro.jpeg';
 import cyril from './../../assets/img/speakers2020/CyrilDiagne.jpg';
 import sonia from './../../assets/img/speakers2020/SoniaGuimaraes.png';
-import siobahn from './../../assets/img/speakers2020/siobahn.jpeg';
+import siobahn from './../../assets/img/speakers2020/siobahn.jpg';
 import muyinatu from './../../assets/img/speakers2020/MuyinatuBell.jpg';
 
 const styles = (theme) => ({
@@ -135,11 +135,11 @@ const talks = [
     },
     {
         image: siobahn,
-        talk: 'Talk:',
+        talk: 'Talk: Understanding the Authorship Footprint in the Age of Disinformation',
         name: 'Siobahn  Day Grady',
         title: 'Assistant Professor, School of Library and Information Science', 
         organization: 'North Carolina Central University',
-        bio: 'Research interests are in Authorship Attribution, Human-Computer-Interaction, Machine Learning, Privacy, and Social Computing',
+        bio: 'Siobahn is an Assistant Professor of Information Science/Systems in the School of Library and Information Science at North Carolina Central University, an AAAS IF/THEN Ambassador, a North Carolina Central University OeL Faculty Fellow, and a BlackcomputeHER Fellow. Her work focuses on using machine learning to determine authorship within online social networks and autonomous vehicle fault detection. She also researches STEM identity to broaden participation in computing with her STEM-It-Yourself program. Siobahn holds a Bachelor of Science from Winston-Salem State University,  Masters from North Carolina Central University, and a Doctorate of Philosophy from North Carolina Agricultural and Technical State University. Siobahn is the first woman to graduate with a Ph.D. in Computer Science from the university.',
         link1: 'https://siobahncday.com/',
         link2: 'https://twitter.com/nccuslis',
         link3: 'https://www.facebook.com/nccuslis/',

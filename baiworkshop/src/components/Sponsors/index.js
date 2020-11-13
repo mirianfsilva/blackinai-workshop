@@ -66,8 +66,8 @@ const OrgButton = withStyles((theme) => ({
     },
 }))(Button);
 
-const sponsorslist = [
-    //Diamond
+const sponsorslist = {
+    Diamond:[
     {
         title: 'Google',
         image: 'https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png',
@@ -97,15 +97,15 @@ const sponsorslist = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOxlZbAt8EnvDFysNst-AfvLU2vWx0XP9CGQ&usqp=CAU',
         link: 'https://www.fordfoundation.org/',
         alt: 'Ford Foundation logo',
-    },
-    //Platinum
+    }],
+    Platinum: [
     {
         title: 'Nvidia',
         image: 'https://amakbrasil.com.br/wp-content/uploads/2020/06/logo-1-1024x506.png',
         link: 'https://www.nvidia.com/',
         alt: 'Nvidia logo',
-    },
-    //Gold
+    }],
+    Gold:[
     {
         title: 'Berkeley University',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/1200px-Seal_of_University_of_California%2C_Berkeley.svg.png',
@@ -147,8 +147,8 @@ const sponsorslist = [
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1000px-IBM_logo.svg.png',
         link: 'http://www.datascienceafrica.org/',
         alt: 'IBM logo',
-    },
-    //Silver
+    }],
+    Silver:[
     {
         title: 'Salesforce',
         image: 'https://logodownload.org/wp-content/uploads/2020/04/salesforce-logo.png',
@@ -160,21 +160,21 @@ const sponsorslist = [
         image: 'https://accutics.com/media/1219/oracle.png',
         link: 'http://www.datascienceafrica.org/',
         alt: 'Oracle logo',
-    },
-    //Bronze
+    }],
+    Bronze: [
     {
         title: 'Partnership on AI',
         image: 'https://pbs.twimg.com/profile_images/1004849332355502080/BcWc6y4B.jpg',
         link: 'http://www.datascienceafrica.org/',
         alt: 'Partnership on AI logo',
     },
-    // {
-    //     title: 'Hopper-Dean Foundation',
-    //     image: 'https://www.datascienceafrica.org/img/logo.png',
-    //     link: 'http://www.datascienceafrica.org/',
-    //     alt: 'Hopper-Dean Foundation logo',
-    // },
-];
+    {
+        title: 'Hopper-Dean Foundation',
+        image: 'https://blackinai.github.io/img/hopper-dean.png',
+        link: 'http://www.datascienceafrica.org/',
+        alt: 'Hopper-Dean Foundation logo',
+    }],
+};
 
 
 function Sponsors(props) {
@@ -189,9 +189,76 @@ function Sponsors(props) {
                             2020 Sponsors
                         </Typography>
                     </Grid>
-                    <Grid container spacing={5}>
-                        {sponsorslist.map(key => (
-                            <Grid item xs={12} md={2}>
+                    <Grid item xs={3} spacing={4}> 
+                        <Grid item xs={12} md={8}>
+                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                                Diamond
+                            </Typography>
+                        </Grid>
+                        {sponsorslist.Diamond.map(key => (
+                            <Grid item xs={12} md={8}>
+                                <div className={classes.item}>
+                                    <Link href={key.link}>
+                                        <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                    </Link>
+                                </div>
+                            </Grid>
+                        ))}
+                    </Grid>
+                    <Grid item xs={3} spacing={2}>
+                        <Grid item xs={12} md={8}>
+                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                                Gold
+                            </Typography>
+                        </Grid>
+                        {sponsorslist.Gold.map(key => (
+                            <Grid item xs={12} md={8}>
+                                <div className={classes.item}>
+                                    <Link href={key.link}>
+                                        <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                    </Link>
+                                </div>
+                            </Grid>
+                        ))}
+                    </Grid>
+                    <Grid item xs={3} spacing={2}>
+                        <Grid item xs={12} md={8}>
+                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                                Platinum
+                            </Typography>
+                        </Grid>
+                        {sponsorslist.Platinum.map(key => (
+                            <Grid item xs={12} md={8}>
+                                <div className={classes.item}>
+                                    <Link href={key.link}>
+                                        <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                    </Link>
+                                </div>
+                            </Grid>
+                        ))}
+                        <Grid item xs={12} md={8}>
+                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                                Silver
+                            </Typography>
+                        </Grid>
+                        {sponsorslist.Silver.map(key => (
+                            <Grid item xs={12} md={8}>
+                                <div className={classes.item}>
+                                    <Link href={key.link}>
+                                        <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                    </Link>
+                                </div>
+                            </Grid>
+                        ))}
+                    </Grid>
+                    <Grid item xs={3} spacing={2}>
+                        <Grid item xs={12} md={8}>
+                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                                Bronze
+                            </Typography>
+                        </Grid>
+                        {sponsorslist.Bronze.map(key => (
+                            <Grid item xs={12} md={8}>
                                 <div className={classes.item}>
                                     <Link href={key.link}>
                                         <img alt={key.title} src={key.image} className={classes.avatarSize} />

@@ -76,7 +76,7 @@ const sponsorslist = [
     },
     {
         title: 'Apple',
-        image: 'https://assets.stickpng.com/images/580b57fcd9996e24bc43c516.png',
+        image: 'https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c516.png',
         link: 'https://www.apple.com/',
         alt: 'Apple logo',
     },

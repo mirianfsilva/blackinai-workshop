@@ -13,8 +13,8 @@ const styles = (theme) => ({
         backgroundColor: theme.palette.primary.light,
     },
     container: {
-        marginTop: theme.spacing(10),
-        marginBottom: theme.spacing(10),
+        marginTop: theme.spacing(6),
+        marginBottom: theme.spacing(6),
         display: 'flex',
         position: 'relative',
     },
@@ -30,11 +30,6 @@ const styles = (theme) => ({
     title: {
         marginTop: theme.spacing(2),
         marginBottom: theme.spacing(5),
-    },
-    curvyLines: {
-        pointerEvents: 'none',
-        position: 'absolute',
-        top: -160,
     },
     chip: {
         margin: theme.spacing(1),
@@ -70,13 +65,13 @@ const sponsorslist = {
     Diamond:[
     {
         title: 'Google',
-        image: 'https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png',
+        image: 'https://blackinai.github.io/img/google.png',
         link: 'https://about.google/',
         alt: 'Google logo',
     },
     {
         title: 'Apple',
-        image: 'https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c516.png',
+        image: 'https://blackinai.github.io/img/apple.png',
         link: 'https://www.apple.com/',
         alt: 'Apple logo',
     },
@@ -88,7 +83,7 @@ const sponsorslist = {
     },
     {
         title: 'MacArthur Foundation',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/MacArth_primary_logo_stacked.svg/1200px-MacArth_primary_logo_stacked.svg.png',
+        image: 'https://blackinai.github.io/img/mcarthur.png',
         link: 'https://www.macfound.org/',
         alt: 'MacArthur Foundation logo',
     },
@@ -139,39 +134,39 @@ const sponsorslist = {
     {
         title: 'Amazon',
         image: 'https://www.marketplace.org/wp-content/uploads/2019/07/ama2.png?resize=740%2C204',
-        link: 'http://www.datascienceafrica.org/',
+        link: 'https://www.aboutamazon.com/',
         alt: 'Amazon logo',
     },
     {
         title: 'IBM',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1000px-IBM_logo.svg.png',
-        link: 'http://www.datascienceafrica.org/',
+        link: 'https://www.ibm.com/',
         alt: 'IBM logo',
     }],
     Silver:[
     {
         title: 'Salesforce',
         image: 'https://logodownload.org/wp-content/uploads/2020/04/salesforce-logo.png',
-        link: 'http://www.datascienceafrica.org/',
+        link: 'https://www.salesforce.com/company/about-us/',
         alt: 'Salesforce logo',
     },
     {
         title: 'Oracle',
         image: 'https://accutics.com/media/1219/oracle.png',
-        link: 'http://www.datascienceafrica.org/',
+        link: 'https://www.oracle.com/corporate/',
         alt: 'Oracle logo',
     }],
     Bronze: [
     {
         title: 'Partnership on AI',
         image: 'https://pbs.twimg.com/profile_images/1004849332355502080/BcWc6y4B.jpg',
-        link: 'http://www.datascienceafrica.org/',
+        link: 'https://www.partnershiponai.org/',
         alt: 'Partnership on AI logo',
     },
     {
         title: 'Hopper-Dean Foundation',
         image: 'https://blackinai.github.io/img/hopper-dean.png',
-        link: 'http://www.datascienceafrica.org/',
+        link: '/',
         alt: 'Hopper-Dean Foundation logo',
     }],
 };
@@ -189,7 +184,7 @@ function Sponsors(props) {
                             2020 Sponsors
                         </Typography>
                     </Grid>
-                    <Grid item xs={3} spacing={4}> 
+                    <Grid item xs={3} spacing={2}> 
                         <Grid item xs={12} md={8}>
                             <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
                                 Diamond
@@ -201,6 +196,7 @@ function Sponsors(props) {
                                     <Link href={key.link}>
                                         <img alt={key.title} src={key.image} className={classes.avatarSize} />
                                     </Link>
+                                    <br></br>
                                 </div>
                             </Grid>
                         ))}

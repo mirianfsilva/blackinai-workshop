@@ -54,9 +54,10 @@ const styles = (theme) => ({
         height: theme.spacing(30),
     },
     card: {
-        height: '480px',
+        height: '500px',
         marginTop: theme.spacing(1),
         marginBottom: theme.spacing(2),
+        marginLeft: theme.spacing(-10)
     },
     icon: {
         color: theme.palette.primary.dark,
@@ -121,11 +122,11 @@ const talks = [
     },
     {
         image: sonia,
-        talk: 'Talk:',
+        talk: 'Talk: My journey, advocacy work to improve diversity in Brazilian Research',
         name: 'Sonia Guimarães',
         title: 'Professor of Physics', 
         organization: 'Instituto Tecnológico de Aeronáutica',
-        bio: 'She was the first woman and black woman to get a PhD in Physics in Brazil and the first woman to become a professor at Brazil\'s Aeronautics Technology Institute (ITA)',
+        bio: 'Dr. Guimarães is an Adjunct IV Professor at Aeronautics Institute of Technology – ITA in Portuguese. Dr. Guimarães teaches experimental physics for future electrical, computational, structures for airports, mechanics for airplanes, aeronautics e aero spatial engineers, in their 1st and 2nd years. She used to research about semiconductors to make solar cells and infrared sensors, now she is researching about organic light emitting diodes – OLEDs. The idea is to use OLEDs to make teaching physics more interesting to high school students. She completed her PhD in Semiconductor Devices, at The University of Manchester Institute of Science and Technology, England. She also holds a MS in Applied Physics at São Paulo University – USP in Portuguese, Brazil. She is the counsel founder of afrobras -  a non-governmental initiative, which created Zumbi dos Palmares University, the first Historically Black Brazilian University. She is also the City of São José dos Campos counsel to promote the Racial Equality, in São Paulo State. She is fellow of the Physics Racial Equity Work Group of the Brazilian Physics Association – SBF in Portuguese, and of the of the Black Researchers - ABPN in Portuguese. She travels around several states of Brazil talking about persuading girls to choose STEM as carrier, digital revolution in order to help them to choose their future. Advocating again racism and gender discrimination. Speeches to motivate victims of these crimes to fight for justice. Dr. Guimarães was born and raised in São Paulo, southeast of Brazil.',
         link1: 'https://en.wikipedia.org/wiki/Sonia_Guimarães',
         // link2: '/',
         // link3: '/',

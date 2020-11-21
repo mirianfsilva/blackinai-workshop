@@ -180,16 +180,12 @@ function MeetOrganizers(props) {
                     {teamlist.map((tile) => (
                         <Grid item xs={12} md={3}>
                             <Avatar alt={tile.title} src={tile.image} className={classes.avatarSize} />
-                            <Card className={classes.card}>
-                                <CardContent>
-                                    <Typography className={classes.cardtitle} variant="h6" gutterBottom>
-                                        {tile.title} <Link className={classes.icon} href={tile.link}>{tile.icon}</Link>
-                                    </Typography>
-                                    <Typography variant="body2" component="h2">
-                                        {tile.subtitle} 
-                                    </Typography>
-                                </CardContent>
-                            </Card>
+                            <Typography className={classes.cardtitle} variant="h6" gutterBottom>
+                                {tile.title} <Link className={classes.icon} href={tile.link}>{tile.icon}</Link>
+                            </Typography>
+                            <Typography variant="body2" component="h2">
+                                {tile.subtitle} 
+                            </Typography>
                         </Grid>
                     ))}
                     <Grid item xs={12} align="center">

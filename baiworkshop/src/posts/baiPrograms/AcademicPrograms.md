@@ -60,9 +60,9 @@ If you are interested in supporting us by volunteering your time as a mentor, do
 
 - **How can I advertise graduate student, postdoctoral fellowship, faculty, or research scientist positions at my institutions?**
 
-    - *To advertise graduate programs (masters, professional, and doctorate degrees, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScujfBJHwgzG69hO66GPDUQtezszjNlttA3Z1n638n7Gdghsw/viewform).*
-    - *To advertise fellowships or scholarships, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfx-u2XWl74G40tweim3q0Xrdh7iCxQSzTYE1ukS-A9DWEykg/viewform).*
-    - *To advertise postdoctoral, faculty, or research scientist positions, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScEmNezD5GM6Ay91bT3YE81vgraB5ST7jSzHkQuAIZw3hIo8Q/viewform).*
+    - *To advertise graduate programs (masters, professional, and doctorate degrees, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScujfBJHwgzG69hO66GPDUQtezszjNlttA3Z1n638n7Gdghsw/viewform?usp=sf_link).*
+    - *To advertise fellowships or scholarships, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfx-u2XWl74G40tweim3q0Xrdh7iCxQSzTYE1ukS-A9DWEykg/viewform?usp=sf_link).*
+    - *To advertise postdoctoral, faculty, or research scientist positions, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScEmNezD5GM6Ay91bT3YE81vgraB5ST7jSzHkQuAIZw3hIo8Q/viewform?usp=sf_link).*
 
 ### Resources:
 - Help us identify graduate programs with lower financial barriers by filling out the respective forms below:

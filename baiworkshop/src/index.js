@@ -19,7 +19,8 @@ import datagrant2020 from './pages/BAI/datagrant2020';
 import contactUs from './pages/BAI/contactUs';
 import Organizers from './pages/Organizers';
 import speakers2020 from './pages/BAI/speakers2020';
-
+import schedule2020 from './pages/BAI/schedule2020';
+ 
 library.add(fab, fas);
 
 ReactDOM.render(
@@ -36,6 +37,7 @@ ReactDOM.render(
             <Route path="/contact" component={contactUs} exact />
             <Route path="/organizers" component={Organizers} exact />
             <Route path="/talks2020" component={speakers2020} exact/>
+            <Route path="/schedule2020" component={schedule2020} exact/>
         </Switch>
     </BrowserRouter>,
   document.getElementById('root')

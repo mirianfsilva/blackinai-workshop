@@ -1,4 +1,4 @@
-##### Last updated on Sep 24, 2020
+##### Last updated on Nov 23, 2020
 
 
 **The Black in AI Academic Program** is committed to serving as a resource and supporting Black junior researchers as they apply to graduate programs, navigate graduate school, and enter the postgraduate job market. To that end, we conduct online information sessions, provide scholarships to cover costs related to applications, assign participants to peer and senior mentors, and share crowdsourced documents that demystify application processes.
@@ -10,7 +10,8 @@ Our program is presently designed to cover three areas of graduate education:
 - **Graduate application mentoring program:** to support Black students seeking admission into masters and Ph.D. programs around the world. This program currently serves over 200 Black applicants in this application cycle.
 - **Graduate school mentoring:** to offer guidance, mentorship, and resources for current graduate students.
 - **Postgraduate application network:** to empower soon-to-be or recent Black Ph.D. students seeking postdoctoral, faculty, and research scientist positions. This program is currently serving over 100 Black applicants during this application cycle.
-Since 2017, the graduate application mentoring program has served over 400 students overall, with the support of nearly 100 mentors. Participants in this program have enrolled at universities including Howard University, Australian National University, University of California - Berkeley, University of British Columbia, University of Capetown, Carnegie Mellon University - Africa, University College Dublin, Cornell University, Georgia Institute of Technology, University of Oxford, Stanford University, University of the Witwatersrand, and many others.
+
+Since 2017, the graduate application mentoring program has served over 400 students overall, with the support of nearly 100 mentors. Participants in this program have enrolled at universities including the Australian National University, University of California - Berkeley, University of British Columbia, University of Capetown, Carnegie Mellon University - Africa, University College Dublin, Cornell University, Georgia Institute of Technology, Howard University, University of Oxford, Stanford University, University of the Witwatersrand, and many others.
 
 Starting 2020, this program expanded into the Black in AI Academic Positions program, now serving current graduate students and over 100 Black junior scholars applying to postgraduate positions during the 2020/21 application cycle. Members of this program are interested in research careers in academia, industry, and policy, and previous participants have already had a significant impact in the field of AI.
 
@@ -32,9 +33,18 @@ If you are interested in supporting us by volunteering your time as a mentor, do
 - Dina Machuve, Ph.D., Nelson Mandela African Institute of Science and Technology
 - Brandeis Marshall, Ph.D., Spelman College
 
-### Supported By: Black in AI
+### Supported By: 
+**Black in AI**
+**Ford Foundation**
+**Berkeley AI Research (BAIR)**
 
+<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/bai-logo.png?raw=true" alt="Black in AI" style="float: left; height: 60px" />
+
+<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/fordfoundation.png?raw=true" alt="Ford Foundation" style="float: left; height: 60px" />
+
+<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/berkeley.png?raw=true" alt="Berkeley AI Research" style="float: left; height: 60px" />
 -----
+
 
 ### FAQs:
 
@@ -58,8 +68,8 @@ If you are interested in supporting us by volunteering your time as a mentor, do
 
 ### Resources:
 - Help us identify graduate programs with lower financial barriers by filling out the respective forms below:
-    - [GRE-optional/free programs](https://docs.google.com/forms/d/e/1FAIpQLSdyrhg_dR5RC_R5fr5P0Pq-0C6ozYuDDBplI7SN_ODVZdIdig/viewform)
-    - [Programs with application fee-waivers](https://docs.google.com/forms/d/e/1FAIpQLSdyrhg_dR5RC_R5fr5P0Pq-0C6ozYuDDBplI7SN_ODVZdIdig/viewform)
-    - [Funded masters programs](https://docs.google.com/forms/d/e/1FAIpQLScujfBJHwgzG69hO66GPDUQtezszjNlttA3Z1n638n7Gdghsw/viewform)
-    - [Graduate Fellowships/scholarships](https://docs.google.com/forms/d/e/1FAIpQLSfx-u2XWl74G40tweim3q0Xrdh7iCxQSzTYE1ukS-A9DWEykg/viewform)
-    - [Postdoctoral, faculty, and research scientist positions](https://docs.google.com/forms/d/e/1FAIpQLScEmNezD5GM6Ay91bT3YE81vgraB5ST7jSzHkQuAIZw3hIo8Q/viewform)
+    - [GRE-optional/free programs](https://docs.google.com/forms/d/e/1FAIpQLSdyrhg_dR5RC_R5fr5P0Pq-0C6ozYuDDBplI7SN_ODVZdIdig/viewform?usp=sf_link)
+    - [Programs with application fee-waivers](https://docs.google.com/forms/d/e/1FAIpQLSdyrhg_dR5RC_R5fr5P0Pq-0C6ozYuDDBplI7SN_ODVZdIdig/viewform?usp=sf_link)
+    - [Funded masters programs](https://docs.google.com/forms/d/e/1FAIpQLScujfBJHwgzG69hO66GPDUQtezszjNlttA3Z1n638n7Gdghsw/viewform?usp=sf_link)
+    - [Graduate Fellowships/scholarships](https://docs.google.com/forms/d/e/1FAIpQLSfx-u2XWl74G40tweim3q0Xrdh7iCxQSzTYE1ukS-A9DWEykg/viewform?usp=sf_link)
+    - [Postdoctoral, faculty, and research scientist positions](https://docs.google.com/forms/d/e/1FAIpQLScEmNezD5GM6Ay91bT3YE81vgraB5ST7jSzHkQuAIZw3hIo8Q/viewform?usp=sf_link)

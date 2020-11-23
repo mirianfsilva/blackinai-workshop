@@ -110,11 +110,11 @@ function CallForPapers2020(props) {
                         <b> Authors of accepted papers will be notified after November 6th 2020.</b>
 
                     </Typography>
-                    <ColorButton className={classes.chip} variant="contained" href="https://bit.ly/3iQQmgr">
-                        Read More
-                    </ColorButton>
                     <ColorButton className={classes.chip} variant="contained" href="/talks2020">
                         BAI 2020 Invited Talks
+                    </ColorButton>
+                    <ColorButton className={classes.chip} variant="contained" href="/schedule2020">
+                        BAI NeurIPS 2020 Schedule
                     </ColorButton>
                     <ColorButton className={classes.chip} variant="contained" href="/datagrant2020">
                         NeurIPS Registration Assistance and Data Grants

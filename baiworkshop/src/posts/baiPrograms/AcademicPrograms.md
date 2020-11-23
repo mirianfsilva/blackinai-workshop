@@ -31,17 +31,20 @@ If you are interested in supporting us by volunteering your time as a mentor, do
 - Rediet Abebe, Ph.D., Harvard University
 - Sanmi Koyejo, Ph.D., University of Illinois, Urbana Champaign
 - Dina Machuve, Ph.D., Nelson Mandela African Institute of Science and Technology
-- Brandeis Marshall, Ph.D., Spelman College
+- Brandeis Marshall, Ph.D.
 
+-----
 ### Supported By: 
 **Black in AI, Ford Foundation, Berkeley AI Research (BAIR)**
 
-<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/bai-logo.png?raw=true" alt="Black in AI" style="float: left; height: 60px; margin-right: 10px"/>
+<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/bai-logo.png?raw=true" alt="Black in AI" style="float: left; height: 150px; margin-right: 50px"/>
 
-<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/fordfoundation.png?raw=true" alt="Ford Foundation" style="float: left; height: 60px; margin-right: 20px" />
+<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/fordfoundation.png?raw=true" alt="Ford Foundation" style="float: left; height: 150px; margin-right: 50px" />
 
-<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/berkeley.png?raw=true" alt="Berkeley AI Research" style="float: left; height: 60px" />
+<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/berkeley.png?raw=true" alt="Berkeley AI Research" style="float: left; height: 150px" />
 
+<br></br>
+<br></br>
 <br></br>
 <br></br>
 ### FAQs:

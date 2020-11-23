@@ -34,20 +34,18 @@ If you are interested in supporting us by volunteering your time as a mentor, do
 - Brandeis Marshall, Ph.D., Spelman College
 
 ### Supported By: 
-**Black in AI**
-**Ford Foundation**
-**Berkeley AI Research (BAIR)**
+**Black in AI, Ford Foundation, Berkeley AI Research (BAIR)**
 
-<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/bai-logo.png?raw=true" alt="Black in AI" style="float: left; height: 60px" />
+<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/bai-logo.png?raw=true" alt="Black in AI" style="float: left; height: 60px; margin-right: 10px"/>
 
-<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/fordfoundation.png?raw=true" alt="Ford Foundation" style="float: left; height: 60px" />
+<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/fordfoundation.png?raw=true" alt="Ford Foundation" style="float: left; height: 60px; margin-right: 20px" />
 
 <img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/berkeley.png?raw=true" alt="Berkeley AI Research" style="float: left; height: 60px" />
------
 
-
+<br></br>
+<br></br>
 ### FAQs:
-
+---
 - **How can I take part in this program?**
 
 *If you self-identify as Black and are applying to graduate or postgraduate positions or are currently in graduate school, please sign up to join the Black in AI google group here and follow instructions sent out over our email list.*

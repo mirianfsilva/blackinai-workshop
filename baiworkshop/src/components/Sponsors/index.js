@@ -77,7 +77,7 @@ const sponsorslist = {
     },
     {
         title: 'Deepmind',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/1/12/DeepMind_logo.png',
+        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/deepming.png?raw=true',
         link: 'https://deepmind.com/',
         alt: 'Deepmind logo',
     },
@@ -134,7 +134,7 @@ const sponsorslist = {
     {
         title: 'Amazon',
         image: 'https://www.marketplace.org/wp-content/uploads/2019/07/ama2.png?resize=740%2C204',
-        link: 'https://www.aboutamazon.com/',
+        link: 'https://www.amazon.science/',
         alt: 'Amazon logo',
     },
     {

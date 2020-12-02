@@ -28,7 +28,7 @@ const styles = (theme) => ({
         height: 60,
     },
     title: {
-        marginTop: theme.spacing(2),
+        marginTop: theme.spacing(3),
         marginBottom: theme.spacing(5),
     },
     chip: {
@@ -37,7 +37,8 @@ const styles = (theme) => ({
         borderRadius: "40px",
     },
     avatarSize: {
-        height: theme.spacing(6),
+        height: theme.spacing(7),
+        marginTop: theme.spacing(3),
     },
 });
 
@@ -96,7 +97,7 @@ const sponsorslist = {
     Platinum: [
     {
         title: 'Nvidia',
-        image: 'https://amakbrasil.com.br/wp-content/uploads/2020/06/logo-1-1024x506.png',
+        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/nvidia.png?raw=true',
         link: 'https://www.nvidia.com/',
         alt: 'Nvidia logo',
     }],
@@ -109,7 +110,7 @@ const sponsorslist = {
     },
     {
         title: 'AI2',
-        image: 'https://allenai.org/_next/static/images/AI2_Logo_Square_Gradients-dcd989f39f9f4248b53105719ca2af20.png',
+        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/ai2.png?raw=true',
         link: 'https://allenai.org/',
         alt: 'AI2 logo',
     },
@@ -121,19 +122,20 @@ const sponsorslist = {
     },
     {
         title: 'Facebook',
-        image: 'https://logosmarcas.net/wp-content/uploads/2020/04/Facebook-Logo.png',
+        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/facebook.png?raw=true',
         link: 'https://about.fb.com/',
         alt: 'Facebook logo',
     },
     {
         title: 'BMO',
-        image: 'https://3.bp.blogspot.com/-stML2IUSp6A/V-k-nmWqt3I/AAAAAAAAAnA/5V8ZmQgQ4HIMKe_257Mweq4qO-RJbrmnQCLcB/s1600/bank-of-montreal-logo.jpg',
+        // image: 'https://3.bp.blogspot.com/-stML2IUSp6A/V-k-nmWqt3I/AAAAAAAAAnA/5V8ZmQgQ4HIMKe_257Mweq4qO-RJbrmnQCLcB/s1600/bank-of-montreal-logo.jpg',
+        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/bmo.png?raw=true',
         link: 'https://www.bmo.com/main/about-bmo/',
         alt: 'BMO logo',
     },
     {
         title: 'Amazon',
-        image: 'https://www.marketplace.org/wp-content/uploads/2019/07/ama2.png?resize=740%2C204',
+        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/amazon.png?raw=true',
         link: 'https://www.amazon.science/',
         alt: 'Amazon logo',
     },
@@ -186,7 +188,7 @@ function Sponsors(props) {
                     </Grid>
                     <Grid item xs={3} spacing={2}> 
                         <Grid item xs={12} md={8}>
-                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                            <Typography variant="h5" marked="center" align="center" component="h3" className={classes.title}>
                                 Diamond
                             </Typography>
                         </Grid>

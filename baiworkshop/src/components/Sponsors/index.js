@@ -38,7 +38,7 @@ const styles = (theme) => ({
     },
     avatarSize: {
         height: theme.spacing(7),
-        marginTop: theme.spacing(3),
+        marginBottom: theme.spacing(3),
     },
 });
 
@@ -104,7 +104,7 @@ const sponsorslist = {
     Gold:[
     {
         title: 'Berkeley University',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/1200px-Seal_of_University_of_California%2C_Berkeley.svg.png',
+        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/berkeley.png?raw=true',
         link: 'https://www.berkeley.edu/',
         alt: 'Berkeley University logo',
     },
@@ -182,13 +182,13 @@ function Sponsors(props) {
             <Container className={classes.container}>
                 <Grid container spacing={12}>
                     <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                        <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
                             2020 Sponsors
                         </Typography>
                     </Grid>
                     <Grid item xs={3} spacing={2}> 
                         <Grid item xs={12} md={8}>
-                            <Typography variant="h5" marked="center" align="center" component="h3" className={classes.title}>
+                            <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
                                 Diamond
                             </Typography>
                         </Grid>
@@ -205,7 +205,7 @@ function Sponsors(props) {
                     </Grid>
                     <Grid item xs={3} spacing={2}>
                         <Grid item xs={12} md={8}>
-                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                            <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
                                 Gold
                             </Typography>
                         </Grid>
@@ -221,7 +221,7 @@ function Sponsors(props) {
                     </Grid>
                     <Grid item xs={3} spacing={2}>
                         <Grid item xs={12} md={8}>
-                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                            <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
                                 Platinum
                             </Typography>
                         </Grid>
@@ -234,8 +234,10 @@ function Sponsors(props) {
                                 </div>
                             </Grid>
                         ))}
+                        <br></br>
+                        <br></br>
                         <Grid item xs={12} md={8}>
-                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                            <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
                                 Silver
                             </Typography>
                         </Grid>
@@ -251,7 +253,7 @@ function Sponsors(props) {
                     </Grid>
                     <Grid item xs={3} spacing={2}>
                         <Grid item xs={12} md={8}>
-                            <Typography variant="h5" marked="center" align="center" component="h2" className={classes.title}>
+                            <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
                                 Bronze
                             </Typography>
                         </Grid>

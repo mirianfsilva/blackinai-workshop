@@ -72,7 +72,7 @@ const sponsorslist = {
     },
     {
         title: 'Apple',
-        image: 'https://blackinai.github.io/img/apple.png',
+        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/apple.png?raw=true',
         link: 'https://www.apple.com/',
         alt: 'Apple logo',
     },

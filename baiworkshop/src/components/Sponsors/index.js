@@ -2,9 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { Container, Divider, Chip, Button, Avatar, Link } from '@material-ui/core/';
+import { Container, Link } from '@material-ui/core/';
 import Typography from './../Typography';
-import backgroundImage from './../../assets/img/appCurvyLines.png';
 
 const styles = (theme) => ({
     root: {
@@ -42,137 +41,115 @@ const styles = (theme) => ({
     },
 });
 
-const ColorButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.dark),
-        backgroundColor: theme.palette.primary.dark,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.dark,
-        },
-    },
-}))(Button);
-
-const OrgButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.light),
-        backgroundColor: theme.palette.primary.light,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.light,
-        },
-    },
-}))(Button);
-
 const sponsorslist = {
     Diamond:[
     {
         title: 'Google',
-        image: 'https://blackinai.github.io/img/google.png',
+        image: require('./../../assets/img/sponsors-partners/google.png'),
         link: 'https://about.google/',
         alt: 'Google logo',
     },
     {
         title: 'Apple',
-        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/apple.png?raw=true',
+        image: require('./../../assets/img/sponsors-partners/apple.png'),
         link: 'https://www.apple.com/',
         alt: 'Apple logo',
     },
     {
         title: 'Deepmind',
-        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/deepming.png?raw=true',
+        image: require('./../../assets/img/sponsors-partners/deepmind.png'),
         link: 'https://deepmind.com/',
         alt: 'Deepmind logo',
     },
     {
         title: 'MacArthur Foundation',
-        image: 'https://blackinai.github.io/img/mcarthur.png',
+        image: require('./../../assets/img/sponsors-partners/macArthur.png'),
         link: 'https://www.macfound.org/',
         alt: 'MacArthur Foundation logo',
     },
     {
         title: 'Ford Foundation',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOxlZbAt8EnvDFysNst-AfvLU2vWx0XP9CGQ&usqp=CAU',
+        image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
         link: 'https://www.fordfoundation.org/',
         alt: 'Ford Foundation logo',
     }],
     Platinum: [
     {
         title: 'Nvidia',
-        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/nvidia.png?raw=true',
+        image: require('./../../assets/img/sponsors-partners/nvidia.png'),
         link: 'https://www.nvidia.com/',
         alt: 'Nvidia logo',
     }],
     Gold:[
     {
         title: 'Berkeley University',
-        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/berkeley.png?raw=true',
+        image: require('./../../assets/img/sponsors-partners/berkeley.png'),
         link: 'https://www.berkeley.edu/',
         alt: 'Berkeley University logo',
     },
     {
         title: 'AI2',
-        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/ai2.png?raw=true',
+        image: require('./../../assets/img/sponsors-partners/ai2.png'),
         link: 'https://allenai.org/',
         alt: 'AI2 logo',
     },
     {
         title: 'Microsoft',
-        image: 'https://letsteachtheworld.org/wp-content/uploads/2016/07/myce-microsoft-Logo-2.png',
+        image: require('./../../assets/img/sponsors-partners/microsoft.png'),
         link: 'https://www.microsoft.com/',
         alt: 'Microsoft logo',
     },
     {
         title: 'Facebook',
-        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/facebook.png?raw=true',
+        image: require('./../../assets/img/sponsors-partners/facebook.png'),
         link: 'https://about.fb.com/',
         alt: 'Facebook logo',
     },
     {
         title: 'BMO',
-        // image: 'https://3.bp.blogspot.com/-stML2IUSp6A/V-k-nmWqt3I/AAAAAAAAAnA/5V8ZmQgQ4HIMKe_257Mweq4qO-RJbrmnQCLcB/s1600/bank-of-montreal-logo.jpg',
-        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/bmo.png?raw=true',
+        image: require('./../../assets/img/sponsors-partners/bmo.png'),
         link: 'https://www.bmo.com/main/about-bmo/',
         alt: 'BMO logo',
     },
     {
         title: 'Amazon',
-        image: 'https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/amazon.png?raw=true',
+        image: require('./../../assets/img/sponsors-partners/amazon.png'),
         link: 'https://www.amazon.science/',
         alt: 'Amazon logo',
     },
     {
         title: 'IBM',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1000px-IBM_logo.svg.png',
+        image: require('./../../assets/img/sponsors-partners/ibm.png'),
         link: 'https://www.ibm.com/',
         alt: 'IBM logo',
     }],
     Silver:[
     {
         title: 'Salesforce',
-        image: 'https://logodownload.org/wp-content/uploads/2020/04/salesforce-logo.png',
+        image: require('./../../assets/img/sponsors-partners/salesforce.png'),
         link: 'https://www.salesforce.com/company/about-us/',
         alt: 'Salesforce logo',
     },
     {
         title: 'Oracle',
-        image: 'https://accutics.com/media/1219/oracle.png',
+        image: require('./../../assets/img/sponsors-partners/oracle.png'),
         link: 'https://www.oracle.com/corporate/',
         alt: 'Oracle logo',
     }],
     Bronze: [
     {
         title: 'Partnership on AI',
-        image: 'https://pbs.twimg.com/profile_images/1004849332355502080/BcWc6y4B.jpg',
+        image: require('./../../assets/img/sponsors-partners/partnershipAi.png'),
         link: 'https://www.partnershiponai.org/',
         alt: 'Partnership on AI logo',
     },
     {
         title: 'Hopper-Dean Foundation',
-        image: 'https://blackinai.github.io/img/hopper-dean.png',
+        image: require('./../../assets/img/sponsors-partners/hopperdeanfoundadion.png'),
         link: '/',
         alt: 'Hopper-Dean Foundation logo',
     }],
 };
-
 
 function Sponsors(props) {
     const { classes } = props;

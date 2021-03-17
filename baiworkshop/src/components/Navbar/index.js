@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import clsx from 'clsx';
-import { makeStyles } from '@material-ui/core/styles';
-import { withStyles } from '@material-ui/core/styles';
-import Typography from './../Typography';
-import { Link, Hidden, Drawer, IconButton, List , ListItem} from '@material-ui/core/';
-import { AppBar, Toolbar, SwipeableDrawer, Button, Menu, Grid } from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { AppBar, Button, Toolbar } from '@material-ui/core';
+import { Drawer, IconButton, Link, List, ListItem } from '@material-ui/core/';
+import { withStyles } from '@material-ui/core/styles';
+import MenuIcon from '@material-ui/icons/Menu';
+import clsx from 'clsx';
+import PropTypes from 'prop-types';
+import React from 'react';
 import logo from './../../assets/img/bai-logo.png';
 
 export const toolbarStyles = (theme) => ({

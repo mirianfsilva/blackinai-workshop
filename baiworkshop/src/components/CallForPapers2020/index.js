@@ -65,17 +65,6 @@ const ColorButton = withStyles((theme) => ({
     },
 }))(Button);
 
-const JoinUsButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.light),
-        backgroundColor: theme.palette.primary.light,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.light,
-        },
-    },
-}))(Button);
-
-
 function CallForPapers2020(props) {
     const { classes } = props;
 
@@ -86,7 +75,7 @@ function CallForPapers2020(props) {
                     <Grid container spacing={4}>
                         <Grid item xs={12} md={5}>
                                 <div className={classes.item}>
-                                    <img src={backgroundImage} className={classes.curvyLines} alt="empty image"/>
+                                    <img src={backgroundImage} className={classes.curvyLines} alt=""/>
                                 </div>
                             </Grid>
                             <Grid item xs={12} md={5}>

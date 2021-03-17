@@ -1,10 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
-import Typography from '../../components/Typography';
-import { ThemeProvider, Container, Box, Button } from '@material-ui/core';
-import { withStyles } from '@material-ui/core/styles';
-import ContentFile from '../../components/Markdown/readfile';
+import { ThemeProvider } from '@material-ui/core';
 import theme from '../../theme';
 import InvitedSpeakers2020 from '../../components/InvitedSpeakers2020';
 

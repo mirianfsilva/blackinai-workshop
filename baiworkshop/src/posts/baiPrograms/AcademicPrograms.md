@@ -37,9 +37,9 @@ If you are interested in supporting us by volunteering your time as a mentor, do
 ### Supported By: 
 **Black in AI, Ford Foundation**
 
-<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/bai-logo.png?raw=true" alt="Black in AI" style="float: left; height: 150px; margin-right: 50px"/>
+<img src="https://github.com/mirianfsilva/blackinai-workshop/blob/master/baiworkshop/src/assets/img/bai-logo.png?raw=true" alt="Black in AI" style="float: left; height: 150px; margin-right: 50px"/>
 
-<img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/fordfoundation.png?raw=true" alt="Ford Foundation" style="float: left; height: 150px; margin-right: 50px" />
+<img src="https://github.com/mirianfsilva/blackinai-workshop/blob/master/baiworkshop/src/assets/img/sponsors-partners/fordfoundation.png?raw=true" alt="Ford Foundation" style="float: left; height: 150px; margin-right: 50px" />
 
 <!-- <img src="https://github.com/mirianfsilva/black-in-ai/blob/master/blackinai/src/assets/img/sponsors-partners/berkeley.png?raw=true" alt="Berkeley AI Research" style="float: left; height: 150px" /> -->
 

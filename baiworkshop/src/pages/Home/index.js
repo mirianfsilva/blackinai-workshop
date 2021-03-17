@@ -6,7 +6,6 @@ import { ThemeProvider, CssBaseline } from '@material-ui/core';
 import theme from './../../theme';
 import Header from '../../components/Header';
 import CommunityValues from '../../components/CommunityValues';
-import TeamMembers from '../../components/TeamMembers';
 import AcademicProgram from '../../components/AcademicPrograms';
 import RelatedOrganizations from '../../components/RelatedOrganizations';
 import CallForPapers2020 from '../../components/CallForPapers2020';

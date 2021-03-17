@@ -1,17 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import { CardMedia, Container, Grid } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
-import Button from './../Button';
-import Typography from './../Typography';
-import HeaderLayout from './../HeaderLayout';
-import { Card, CardMedia, Container, Divider, Grid, GridList, GridListTile } from '@material-ui/core';
-
+import PropTypes from 'prop-types';
+import React from 'react';
 import image1 from './../../assets/img/bai-img-2.jpg';
 import image2 from './../../assets/img/bai-img-4.JPG';
-import image3 from './../../assets/img/bai-img-1.jpg';
 import image4 from './../../assets/img/bai-img-7.jpg';
 import image5 from './../../assets/img/bai-img-8.jpg';
-
+import HeaderLayout from './../HeaderLayout';
+import Typography from './../Typography';
 
 const styles = (theme) => ({
     root: {
@@ -67,16 +63,16 @@ function Header(props) {
                             alt="Almost ten black people, smiling, with raised hands. All wearing the black in AI badge.">
                         </CardMedia>
                         <br></br>
-                        <CardMedia component="img" alt="" height="210" image={image2}
+                        <CardMedia component="img" height="210" image={image2}
                             alt="Black people, smiling, with their hands up, wearing T-shirts with a raised fist, the black in AI logo.">
                         </CardMedia>
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <CardMedia component="img" alt="" height="210" image={image4}
+                        <CardMedia component="img" height="210" image={image4}
                             alt="A large auditorium, with several chairs being occupied by black people looking at the stage">
                         </CardMedia>
                         <br></br>
-                        <CardMedia component="img" alt="" height="210" image={image5}
+                        <CardMedia component="img" height="210" image={image5}
                             alt="The Black in AI organizers, 3 men and 3 women. Everyone standing, smiling and arm in arm.">
                         </CardMedia>
                     </Grid>

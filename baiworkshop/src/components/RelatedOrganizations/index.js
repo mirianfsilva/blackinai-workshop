@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { Container, Divider, Chip, Button, Avatar, Link} from '@material-ui/core/';
+import { Container, Avatar, Link } from '@material-ui/core/';
 import Typography from './../Typography';
 import backgroundImage from './../../assets/img/appCurvyLines.png';
 
@@ -46,26 +46,6 @@ const styles = (theme) => ({
         height: theme.spacing(10),
     },
 });
-
-const ColorButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.dark),
-        backgroundColor: theme.palette.primary.dark,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.dark,
-        },
-    },
-}))(Button);
-
-const OrgButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.light),
-        backgroundColor: theme.palette.primary.light,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.light,
-        },
-    },
-}))(Button);
 
 const organizationslist = [
     {
@@ -119,7 +99,7 @@ function RelatedOrganizations(props) {
                         </Typography>
                     </Grid>
                     <Grid container spacing={5}>
-                        <img src={backgroundImage} className={classes.curvyLines} />
+                        <img src={backgroundImage} alt="" className={classes.curvyLines} />
                         {organizationslist.map(key => (
                             <Grid item xs={12} md={2}>
                                 <div className={classes.item}>

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { Container, Divider, Chip, Button, Link} from '@material-ui/core/';
+import { Container, Button, Link} from '@material-ui/core/';
 import Typography from './../Typography';
 import backgroundImage from './../../assets/img/appCurvyLines.png';
 
@@ -63,25 +63,6 @@ const JoinUsButton = withStyles((theme) => ({
     },
 }))(Button);
 
-const valueslist = [
-    {
-        id: 1, title: '201*',
-        text: 'BAI founded. Also give a brief info about how that happened e.g. where and first steps.'
-    },
-    {
-        id: 2, title: '5999',
-        text: 'We’ve grown from this number to that number of members over this period of time.'
-    },
-    {
-        id: 3, title: '12+',
-        text: 'Number of workshops held or some other metric that shows how far we’ve come'
-    },
-    {
-        id: 4, title: '4000%',
-        text: 'Increase in number of Blacks participating in major AI conferences globally.'
-    },
-];
-
 function CommunityValues(props) {
     const { classes } = props;
 
@@ -90,7 +71,7 @@ function CommunityValues(props) {
             <Container className={classes.container}>
                 <Grid container spacing={12}>
                     <Grid container spacing={3}>
-                        <img src={backgroundImage} className={classes.curvyLines} alt="empty image"/>
+                        <img src={backgroundImage} className={classes.curvyLines} alt=""/>
                         <Grid item xs={12} md={6}>
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 We're addressing the diversity crisis in AI
@@ -125,21 +106,6 @@ function CommunityValues(props) {
                             </Typography>
                         </Grid>
                     </Grid>
-                    {/* <Grid container spacing={5}>
-                        {valueslist.map(key => (
-                            <Grid item xs={12} md={3}>
-                                <div className={classes.item}>
-                                    {key.image}
-                                    <Typography variant="h3" className={classes.title}>
-                                        {key.title}
-                                    </Typography>
-                                    <Typography variant="h5">
-                                        {key.text}
-                                    </Typography>
-                                </div>
-                            </Grid>
-                        ))}
-                    </Grid> */}
                 </Grid>
             </Container>
         </section>

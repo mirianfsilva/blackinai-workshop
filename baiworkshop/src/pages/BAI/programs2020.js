@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
-import { ThemeProvider, Container, Box } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/core';
 import ContentFile from '../../components/Markdown/readfile';
 import theme from '../../theme';
 // Import your makdown file

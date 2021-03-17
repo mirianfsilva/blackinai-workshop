@@ -2,7 +2,7 @@ import * as React from 'react';
 // import ReactMarkdown from 'markdown-to-jsx';
 import ReactMarkdown from 'react-markdown';
 import { withStyles } from '@material-ui/core/styles';
-import { Typography, Link } from '@material-ui/core/';
+import { Typography, Link} from '@material-ui/core/';
 
 const styles = (theme) => ({
     listItem: {

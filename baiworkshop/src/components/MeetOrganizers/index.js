@@ -56,7 +56,7 @@ const styles = (theme) => ({
         height: theme.spacing(15),
     },
     card: {
-        height: '90px',
+        minHeight: '90px',
         marginTop: theme.spacing(1),
         marginBottom: theme.spacing(2),
     },

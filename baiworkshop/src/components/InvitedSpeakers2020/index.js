@@ -50,14 +50,13 @@ const styles = (theme) => ({
         borderRadius: "40px",
     },
     avatarSize: {
-        width: theme.spacing(30),
-        height: theme.spacing(30),
+        width: theme.spacing(35),
+        height: theme.spacing(35),
     },
     card: {
-        height: '500px',
+        minHeight: '500px',
         marginTop: theme.spacing(1),
         marginBottom: theme.spacing(2),
-        marginLeft: theme.spacing(-10)
     },
     icon: {
         color: theme.palette.primary.dark,

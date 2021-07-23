@@ -115,16 +115,16 @@ function Navbar(props) {
 
     const navLinks = [
         {
-            text: 'Home',
+            text: 'Home BAI 2020',
             path: '/',
         },
         {
-            text: 'Academic Programs',
-            path: '/academicprograms',
+            text: 'Call For Submissions',
+            path: '/cpfbai2020',
         },
         {
-            text: 'BAI 2020 Workshop',
-            path: '/cpfbai2020',
+            text: 'BAI NeurIPS 2020 Schedule',
+            path: '/schedule2020',
         },
         {
             text: 'Contact Us',

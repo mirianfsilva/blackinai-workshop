@@ -4,9 +4,7 @@ import SectionNavbars from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { ThemeProvider, CssBaseline } from '@material-ui/core';
 import theme from './../../theme';
-import Header from '../../components/Header';
 import CommunityValues from '../../components/CommunityValues';
-import AcademicProgram from '../../components/AcademicPrograms';
 import RelatedOrganizations from '../../components/RelatedOrganizations';
 import CallForPapers2020 from '../../components/CallForPapers2020';
 import MeetOrganizers from '../../components/MeetOrganizers';
@@ -19,9 +17,9 @@ function Home() {
             <SectionNavbars />
             <Navbar/>
             <CallForPapers2020/>
-            <Header/>
+            {/* <Header/> */}
             <CommunityValues/>
-            <AcademicProgram/>
+            {/* <AcademicProgram/> */}
             <MeetOrganizers/>
             <RelatedOrganizations/>
             <Sponsors/>

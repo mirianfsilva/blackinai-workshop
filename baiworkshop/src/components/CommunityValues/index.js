@@ -76,11 +76,11 @@ function CommunityValues(props) {
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 We're addressing the diversity crisis in AI
                             </Typography>
-                            <JoinUsButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform">
+                            <JoinUsButton className={classes.chip} variant="contained" href="https://blackinai.github.io/#/membership">
                                 Join Us
                             </JoinUsButton>
                             <ColorButton className={classes.chip} variant="contained" href="/cpfbai2020">
-                                Black in Ai - Workshop 2020
+                                Black in Ai - CFP Workshop 2020
                             </ColorButton>
                             <br></br>
                         </Grid>

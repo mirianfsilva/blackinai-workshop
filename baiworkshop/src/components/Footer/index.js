@@ -45,7 +45,7 @@ function Copyright() {
     return (
         <React.Fragment>
             {' © '}
-            <Link color="inherit" href="/">
+            <Link color="inherit" href="https://blackinai.github.io/">
                 Black in AI
             </Link>{' '}{new Date().getFullYear()}{' '}
             <Typography style={{ color:'#f8f7f7'}} variant="body2" marked="left" gutterBottom>
@@ -150,17 +150,17 @@ function Footer(props) {
                         </Typography>
                         <ul className={classes.list} style={{ color:'#f8f7f7'}}>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://www.linkedin.com/company/blackinai/">About Us</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://blackinai.github.io/#/about">About Us</Link>
                             </li>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://blackinai2020.vercel.app/academicprograms">Programs</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://blackinai.github.io/#/programss">Programs</Link>
                             </li>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://docs.google.com/forms/d/e/1FAIpQLSd85BdKTNiN2ZJnMJPI37dligr0Q-_cs5Ik8d9qYDfkheS5Xw/viewform">Membership</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://blackinai.github.io/#/membership">Membership</Link>
                             </li>
-                            {/* <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/">Partnership</Link>
-                            </li> */}
+                            <li className={classes.listItem}>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="https://blackinai.github.io/#/partnership">Partnership</Link>
+                            </li>
                         </ul>
                     </Grid>
                     {/* <Grid item xs={6} sm={4} md={3}>

@@ -26,7 +26,6 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Route path="/" component={Home} exact />
-            {/* <Route path="/academicprograms" component={AcademicPrograms} exact /> */}
             <Route path="/cpfbai2020" component={cpf2020} exact />
             <Route path="/grants2020" component={grants2020} exact />
             <Route path="/organizers2020" component={organizers2020} exact />
